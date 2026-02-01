@@ -1,0 +1,2445 @@
+{
+  "data": {
+    "edges": [
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "IBMwatsonxModel",
+            "id": "IBMwatsonxModel-3M3ri",
+            "name": "text_output",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "ChatOutput-hFYRZ",
+            "inputTypes": [
+              "Data",
+              "DataFrame",
+              "Message"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__IBMwatsonxModel-3M3ri{œdataTypeœ:œIBMwatsonxModelœ,œidœ:œIBMwatsonxModel-3M3riœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-hFYRZ{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-hFYRZœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "IBMwatsonxModel-3M3ri",
+        "sourceHandle": "{œdataTypeœ:œIBMwatsonxModelœ,œidœ:œIBMwatsonxModel-3M3riœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ChatOutput-hFYRZ",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-hFYRZœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ChatInput",
+            "id": "ChatInput-Cnhwj",
+            "name": "message",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "query",
+            "id": "CustomComponent-Gsy2V",
+            "inputTypes": [
+              "Message",
+              "Data",
+              "str"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__ChatInput-Cnhwj{œdataTypeœ:œChatInputœ,œidœ:œChatInput-Cnhwjœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-CustomComponent-Gsy2V{œfieldNameœ:œqueryœ,œidœ:œCustomComponent-Gsy2Vœ,œinputTypesœ:[œMessageœ,œDataœ,œstrœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "ChatInput-Cnhwj",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-Cnhwjœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "CustomComponent-Gsy2V",
+        "targetHandle": "{œfieldNameœ:œqueryœ,œidœ:œCustomComponent-Gsy2Vœ,œinputTypesœ:[œMessageœ,œDataœ,œstrœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "WatsonxEmbeddingsComponent",
+            "id": "WatsonxEmbeddingsComponent-He057",
+            "name": "embeddings",
+            "output_types": [
+              "Embeddings"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "embeddings",
+            "id": "CustomComponent-Gsy2V",
+            "inputTypes": [
+              "Embeddings"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__WatsonxEmbeddingsComponent-He057{œdataTypeœ:œWatsonxEmbeddingsComponentœ,œidœ:œWatsonxEmbeddingsComponent-He057œ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-CustomComponent-Gsy2V{œfieldNameœ:œembeddingsœ,œidœ:œCustomComponent-Gsy2Vœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "WatsonxEmbeddingsComponent-He057",
+        "sourceHandle": "{œdataTypeœ:œWatsonxEmbeddingsComponentœ,œidœ:œWatsonxEmbeddingsComponent-He057œ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
+        "target": "CustomComponent-Gsy2V",
+        "targetHandle": "{œfieldNameœ:œembeddingsœ,œidœ:œCustomComponent-Gsy2Vœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "GitLoaderComponent",
+            "id": "GitLoaderComponent-YqKfi",
+            "name": "data",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "git_code",
+            "id": "CustomComponent-Gsy2V",
+            "inputTypes": [
+              "Data",
+              "Message",
+              "str"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__GitLoaderComponent-YqKfi{œdataTypeœ:œGitLoaderComponentœ,œidœ:œGitLoaderComponent-YqKfiœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}-CustomComponent-Gsy2V{œfieldNameœ:œgit_codeœ,œidœ:œCustomComponent-Gsy2Vœ,œinputTypesœ:[œDataœ,œMessageœ,œstrœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "GitLoaderComponent-YqKfi",
+        "sourceHandle": "{œdataTypeœ:œGitLoaderComponentœ,œidœ:œGitLoaderComponent-YqKfiœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}",
+        "target": "CustomComponent-Gsy2V",
+        "targetHandle": "{œfieldNameœ:œgit_codeœ,œidœ:œCustomComponent-Gsy2Vœ,œinputTypesœ:[œDataœ,œMessageœ,œstrœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "CloudantRAGQuery",
+            "id": "CustomComponent-Gsy2V",
+            "name": "code_analysis",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "IBMwatsonxModel-3M3ri",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__CustomComponent-Gsy2V{œdataTypeœ:œCloudantRAGQueryœ,œidœ:œCustomComponent-Gsy2Vœ,œnameœ:œcode_analysisœ,œoutput_typesœ:[œMessageœ]}-IBMwatsonxModel-3M3ri{œfieldNameœ:œinput_valueœ,œidœ:œIBMwatsonxModel-3M3riœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "CustomComponent-Gsy2V",
+        "sourceHandle": "{œdataTypeœ:œCloudantRAGQueryœ,œidœ:œCustomComponent-Gsy2Vœ,œnameœ:œcode_analysisœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "IBMwatsonxModel-3M3ri",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œIBMwatsonxModel-3M3riœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      }
+    ],
+    "nodes": [
+      {
+        "data": {
+          "id": "ChatInput-Cnhwj",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Get chat inputs from the Playground.",
+            "display_name": "Chat Input",
+            "documentation": "https://docs.langflow.org/chat-input-and-output",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "should_store_message",
+              "sender",
+              "sender_name",
+              "session_id",
+              "context_id",
+              "files"
+            ],
+            "frozen": false,
+            "icon": "MessagesSquare",
+            "legacy": false,
+            "lf_version": "1.7.2",
+            "metadata": {
+              "code_hash": "7a26c54d89ed",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "lfx",
+                    "version": "0.2.1"
+                  }
+                ],
+                "total_dependencies": 1
+              },
+              "module": "lfx.components.input_output.chat.ChatInput"
+            },
+            "minimized": true,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Chat Message",
+                "group_outputs": false,
+                "method": "message_response",
+                "name": "message",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from lfx.base.data.utils import IMG_FILE_TYPES, TEXT_FILE_TYPES\nfrom lfx.base.io.chat import ChatComponent\nfrom lfx.inputs.inputs import BoolInput\nfrom lfx.io import (\n    DropdownInput,\n    FileInput,\n    MessageTextInput,\n    MultilineInput,\n    Output,\n)\nfrom lfx.schema.message import Message\nfrom lfx.utils.constants import (\n    MESSAGE_SENDER_AI,\n    MESSAGE_SENDER_NAME_USER,\n    MESSAGE_SENDER_USER,\n)\n\n\nclass ChatInput(ChatComponent):\n    display_name = \"Chat Input\"\n    description = \"Get chat inputs from the Playground.\"\n    documentation: str = \"https://docs.langflow.org/chat-input-and-output\"\n    icon = \"MessagesSquare\"\n    name = \"ChatInput\"\n    minimized = True\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Input Text\",\n            value=\"\",\n            info=\"Message to be passed as input.\",\n            input_types=[],\n        ),\n        BoolInput(\n            name=\"should_store_message\",\n            display_name=\"Store Messages\",\n            info=\"Store the message in the history.\",\n            value=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"sender\",\n            display_name=\"Sender Type\",\n            options=[MESSAGE_SENDER_AI, MESSAGE_SENDER_USER],\n            value=MESSAGE_SENDER_USER,\n            info=\"Type of sender.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"sender_name\",\n            display_name=\"Sender Name\",\n            info=\"Name of the sender.\",\n            value=MESSAGE_SENDER_NAME_USER,\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"session_id\",\n            display_name=\"Session ID\",\n            info=\"The session ID of the chat. If empty, the current session ID parameter will be used.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"context_id\",\n            display_name=\"Context ID\",\n            info=\"The context ID of the chat. Adds an extra layer to the local memory.\",\n            value=\"\",\n            advanced=True,\n        ),\n        FileInput(\n            name=\"files\",\n            display_name=\"Files\",\n            file_types=TEXT_FILE_TYPES + IMG_FILE_TYPES,\n            info=\"Files to be sent with the message.\",\n            advanced=True,\n            is_list=True,\n            temp_file=True,\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Chat Message\", name=\"message\", method=\"message_response\"),\n    ]\n\n    async def message_response(self) -> Message:\n        # Ensure files is a list and filter out empty/None values\n        files = self.files if self.files else []\n        if files and not isinstance(files, list):\n            files = [files]\n        # Filter out None/empty values\n        files = [f for f in files if f is not None and f != \"\"]\n\n        session_id = self.session_id or self.graph.session_id or \"\"\n        message = await Message.create(\n            text=self.input_value,\n            sender=self.sender,\n            sender_name=self.sender_name,\n            session_id=session_id,\n            context_id=self.context_id,\n            files=files,\n        )\n        if session_id and isinstance(message, Message) and self.should_store_message:\n            stored_message = await self.send_message(\n                message,\n            )\n            self.message.value = stored_message\n            message = stored_message\n\n        self.status = message\n        return message\n"
+              },
+              "context_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Context ID",
+                "dynamic": false,
+                "info": "The context ID of the chat. Adds an extra layer to the local memory.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "context_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "files": {
+                "_input_type": "FileInput",
+                "advanced": true,
+                "display_name": "Files",
+                "dynamic": false,
+                "fileTypes": [
+                  "csv",
+                  "json",
+                  "pdf",
+                  "txt",
+                  "md",
+                  "mdx",
+                  "yaml",
+                  "yml",
+                  "xml",
+                  "html",
+                  "htm",
+                  "docx",
+                  "py",
+                  "sh",
+                  "sql",
+                  "js",
+                  "ts",
+                  "tsx",
+                  "jpg",
+                  "jpeg",
+                  "png",
+                  "bmp",
+                  "image"
+                ],
+                "file_path": "",
+                "info": "Files to be sent with the message.",
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "files",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "temp_file": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "file",
+                "value": ""
+              },
+              "input_value": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "ai_enabled": false,
+                "copy_field": false,
+                "display_name": "Input Text",
+                "dynamic": false,
+                "info": "Message to be passed as input.",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input_value",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "sender": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Sender Type",
+                "dynamic": false,
+                "external_options": {},
+                "info": "Type of sender.",
+                "name": "sender",
+                "options": [
+                  "Machine",
+                  "User"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "User"
+              },
+              "sender_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Sender Name",
+                "dynamic": false,
+                "info": "Name of the sender.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "sender_name",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "User"
+              },
+              "session_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Session ID",
+                "dynamic": false,
+                "info": "The session ID of the chat. If empty, the current session ID parameter will be used.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "session_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "should_store_message": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Store Messages",
+                "dynamic": false,
+                "info": "Store the message in the history.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "should_store_message",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": false,
+          "type": "ChatInput"
+        },
+        "dragging": false,
+        "id": "ChatInput-Cnhwj",
+        "measured": {
+          "height": 48,
+          "width": 192
+        },
+        "position": {
+          "x": -310.08455775234125,
+          "y": -1077.4714880332986
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "ChatOutput-hFYRZ",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Display a chat message in the Playground.",
+            "display_name": "Chat Output",
+            "documentation": "https://docs.langflow.org/chat-input-and-output",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "should_store_message",
+              "sender",
+              "sender_name",
+              "session_id",
+              "context_id",
+              "data_template",
+              "clean_data"
+            ],
+            "frozen": false,
+            "icon": "MessagesSquare",
+            "legacy": false,
+            "lf_version": "1.7.2",
+            "metadata": {
+              "code_hash": "8c87e536cca4",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "orjson",
+                    "version": "3.10.15"
+                  },
+                  {
+                    "name": "fastapi",
+                    "version": "1.4.1"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": "0.2.1"
+                  }
+                ],
+                "total_dependencies": 3
+              },
+              "module": "lfx.components.input_output.chat_output.ChatOutput"
+            },
+            "minimized": true,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output Message",
+                "group_outputs": false,
+                "method": "message_response",
+                "name": "message",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "clean_data": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Basic Clean Data",
+                "dynamic": false,
+                "info": "Whether to clean data before converting to string.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "clean_data",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from collections.abc import Generator\nfrom typing import Any\n\nimport orjson\nfrom fastapi.encoders import jsonable_encoder\n\nfrom lfx.base.io.chat import ChatComponent\nfrom lfx.helpers.data import safe_convert\nfrom lfx.inputs.inputs import BoolInput, DropdownInput, HandleInput, MessageTextInput\nfrom lfx.schema.data import Data\nfrom lfx.schema.dataframe import DataFrame\nfrom lfx.schema.message import Message\nfrom lfx.schema.properties import Source\nfrom lfx.template.field.base import Output\nfrom lfx.utils.constants import (\n    MESSAGE_SENDER_AI,\n    MESSAGE_SENDER_NAME_AI,\n    MESSAGE_SENDER_USER,\n)\n\n\nclass ChatOutput(ChatComponent):\n    display_name = \"Chat Output\"\n    description = \"Display a chat message in the Playground.\"\n    documentation: str = \"https://docs.langflow.org/chat-input-and-output\"\n    icon = \"MessagesSquare\"\n    name = \"ChatOutput\"\n    minimized = True\n\n    inputs = [\n        HandleInput(\n            name=\"input_value\",\n            display_name=\"Inputs\",\n            info=\"Message to be passed as output.\",\n            input_types=[\"Data\", \"DataFrame\", \"Message\"],\n            required=True,\n        ),\n        BoolInput(\n            name=\"should_store_message\",\n            display_name=\"Store Messages\",\n            info=\"Store the message in the history.\",\n            value=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"sender\",\n            display_name=\"Sender Type\",\n            options=[MESSAGE_SENDER_AI, MESSAGE_SENDER_USER],\n            value=MESSAGE_SENDER_AI,\n            advanced=True,\n            info=\"Type of sender.\",\n        ),\n        MessageTextInput(\n            name=\"sender_name\",\n            display_name=\"Sender Name\",\n            info=\"Name of the sender.\",\n            value=MESSAGE_SENDER_NAME_AI,\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"session_id\",\n            display_name=\"Session ID\",\n            info=\"The session ID of the chat. If empty, the current session ID parameter will be used.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"context_id\",\n            display_name=\"Context ID\",\n            info=\"The context ID of the chat. Adds an extra layer to the local memory.\",\n            value=\"\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"data_template\",\n            display_name=\"Data Template\",\n            value=\"{text}\",\n            advanced=True,\n            info=\"Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.\",\n        ),\n        BoolInput(\n            name=\"clean_data\",\n            display_name=\"Basic Clean Data\",\n            value=True,\n            advanced=True,\n            info=\"Whether to clean data before converting to string.\",\n        ),\n    ]\n    outputs = [\n        Output(\n            display_name=\"Output Message\",\n            name=\"message\",\n            method=\"message_response\",\n        ),\n    ]\n\n    def _build_source(self, id_: str | None, display_name: str | None, source: str | None) -> Source:\n        source_dict = {}\n        if id_:\n            source_dict[\"id\"] = id_\n        if display_name:\n            source_dict[\"display_name\"] = display_name\n        if source:\n            # Handle case where source is a ChatOpenAI object\n            if hasattr(source, \"model_name\"):\n                source_dict[\"source\"] = source.model_name\n            elif hasattr(source, \"model\"):\n                source_dict[\"source\"] = str(source.model)\n            else:\n                source_dict[\"source\"] = str(source)\n        return Source(**source_dict)\n\n    async def message_response(self) -> Message:\n        # First convert the input to string if needed\n        text = self.convert_to_string()\n\n        # Get source properties\n        source, _, display_name, source_id = self.get_properties_from_source_component()\n\n        # Create or use existing Message object\n        if isinstance(self.input_value, Message) and not self.is_connected_to_chat_input():\n            message = self.input_value\n            # Update message properties\n            message.text = text\n            # Preserve existing session_id from the incoming message if it exists\n            existing_session_id = message.session_id\n        else:\n            message = Message(text=text)\n            existing_session_id = None\n\n        # Set message properties\n        message.sender = self.sender\n        message.sender_name = self.sender_name\n        # Preserve session_id from incoming message, or use component/graph session_id\n        message.session_id = (\n            self.session_id or existing_session_id or (self.graph.session_id if hasattr(self, \"graph\") else None) or \"\"\n        )\n        message.context_id = self.context_id\n        message.flow_id = self.graph.flow_id if hasattr(self, \"graph\") else None\n        message.properties.source = self._build_source(source_id, display_name, source)\n\n        # Store message if needed\n        if message.session_id and self.should_store_message:\n            stored_message = await self.send_message(message)\n            self.message.value = stored_message\n            message = stored_message\n\n        self.status = message\n        return message\n\n    def _serialize_data(self, data: Data) -> str:\n        \"\"\"Serialize Data object to JSON string.\"\"\"\n        # Convert data.data to JSON-serializable format\n        serializable_data = jsonable_encoder(data.data)\n        # Serialize with orjson, enabling pretty printing with indentation\n        json_bytes = orjson.dumps(serializable_data, option=orjson.OPT_INDENT_2)\n        # Convert bytes to string and wrap in Markdown code blocks\n        return \"```json\\n\" + json_bytes.decode(\"utf-8\") + \"\\n```\"\n\n    def _validate_input(self) -> None:\n        \"\"\"Validate the input data and raise ValueError if invalid.\"\"\"\n        if self.input_value is None:\n            msg = \"Input data cannot be None\"\n            raise ValueError(msg)\n        if isinstance(self.input_value, list) and not all(\n            isinstance(item, Message | Data | DataFrame | str) for item in self.input_value\n        ):\n            invalid_types = [\n                type(item).__name__\n                for item in self.input_value\n                if not isinstance(item, Message | Data | DataFrame | str)\n            ]\n            msg = f\"Expected Data or DataFrame or Message or str, got {invalid_types}\"\n            raise TypeError(msg)\n        if not isinstance(\n            self.input_value,\n            Message | Data | DataFrame | str | list | Generator | type(None),\n        ):\n            type_name = type(self.input_value).__name__\n            msg = f\"Expected Data or DataFrame or Message or str, Generator or None, got {type_name}\"\n            raise TypeError(msg)\n\n    def convert_to_string(self) -> str | Generator[Any, None, None]:\n        \"\"\"Convert input data to string with proper error handling.\"\"\"\n        self._validate_input()\n        if isinstance(self.input_value, list):\n            clean_data: bool = getattr(self, \"clean_data\", False)\n            return \"\\n\".join([safe_convert(item, clean_data=clean_data) for item in self.input_value])\n        if isinstance(self.input_value, Generator):\n            return self.input_value\n        return safe_convert(self.input_value)\n"
+              },
+              "context_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Context ID",
+                "dynamic": false,
+                "info": "The context ID of the chat. Adds an extra layer to the local memory.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "context_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "data_template": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Data Template",
+                "dynamic": false,
+                "info": "Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "data_template",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "{text}"
+              },
+              "input_value": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Inputs",
+                "dynamic": false,
+                "info": "Message to be passed as output.",
+                "input_types": [
+                  "Data",
+                  "DataFrame",
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "input_value",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "other",
+                "value": ""
+              },
+              "sender": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Sender Type",
+                "dynamic": false,
+                "external_options": {},
+                "info": "Type of sender.",
+                "name": "sender",
+                "options": [
+                  "Machine",
+                  "User"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "Machine"
+              },
+              "sender_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Sender Name",
+                "dynamic": false,
+                "info": "Name of the sender.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "sender_name",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "AI"
+              },
+              "session_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Session ID",
+                "dynamic": false,
+                "info": "The session ID of the chat. If empty, the current session ID parameter will be used.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "session_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "should_store_message": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Store Messages",
+                "dynamic": false,
+                "info": "Store the message in the history.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "should_store_message",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": false,
+          "type": "ChatOutput"
+        },
+        "dragging": false,
+        "id": "ChatOutput-hFYRZ",
+        "measured": {
+          "height": 48,
+          "width": 192
+        },
+        "position": {
+          "x": 1077.8864432882413,
+          "y": -809.2196795005201
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "IBMwatsonxModel-3M3ri",
+          "node": {
+            "base_classes": [
+              "LanguageModel",
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Generate text using IBM watsonx.ai foundation models.",
+            "display_name": "IBM watsonx.ai",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "system_message",
+              "stream",
+              "base_url",
+              "project_id",
+              "api_key",
+              "model_name",
+              "max_tokens",
+              "stop_sequence",
+              "temperature",
+              "top_p",
+              "frequency_penalty",
+              "presence_penalty",
+              "seed",
+              "logprobs",
+              "top_logprobs",
+              "logit_bias"
+            ],
+            "frozen": false,
+            "icon": "WatsonxAI",
+            "last_updated": "2026-02-01T00:57:54.756Z",
+            "legacy": false,
+            "lf_version": "1.7.2",
+            "metadata": {
+              "code_hash": "769869108e5e",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "requests",
+                    "version": "2.32.5"
+                  },
+                  {
+                    "name": "langchain_ibm",
+                    "version": "0.3.20"
+                  },
+                  {
+                    "name": "pydantic",
+                    "version": "2.11.10"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": "0.2.1"
+                  }
+                ],
+                "total_dependencies": 4
+              },
+              "keywords": [
+                "model",
+                "llm",
+                "language model",
+                "large language model"
+              ],
+              "module": "lfx.components.ibm.watsonx.WatsonxAIComponent"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Model Response",
+                "group_outputs": false,
+                "loop_types": null,
+                "method": "text_response",
+                "name": "text_output",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Language Model",
+                "group_outputs": false,
+                "loop_types": null,
+                "method": "build_model",
+                "name": "model_output",
+                "options": null,
+                "required_inputs": null,
+                "selected": "LanguageModel",
+                "tool_mode": true,
+                "types": [
+                  "LanguageModel"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_frontend_node_flow_id": {
+                "value": "5472e7ef-e4c5-4bc6-b4f8-9431f1c1e507"
+              },
+              "_frontend_node_folder_id": {
+                "value": "29cb05c3-5761-4146-af88-a42072bc7ac3"
+              },
+              "_type": "Component",
+              "api_key": {
+                "_input_type": "SecretStrInput",
+                "advanced": false,
+                "display_name": "Watsonx API Key",
+                "dynamic": false,
+                "info": "The API Key to use for the model.",
+                "input_types": [],
+                "load_from_db": false,
+                "name": "api_key",
+                "override_skip": false,
+                "password": true,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "base_url": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "watsonx API Endpoint",
+                "dynamic": false,
+                "external_options": {},
+                "info": "The base URL of the API.",
+                "name": "base_url",
+                "options": [
+                  "https://us-south.ml.cloud.ibm.com",
+                  "https://eu-de.ml.cloud.ibm.com",
+                  "https://eu-gb.ml.cloud.ibm.com",
+                  "https://au-syd.ml.cloud.ibm.com",
+                  "https://jp-tok.ml.cloud.ibm.com",
+                  "https://ca-tor.ml.cloud.ibm.com"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "https://us-south.ml.cloud.ibm.com"
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "import json\nfrom typing import Any\n\nimport requests\nfrom langchain_ibm import ChatWatsonx\nfrom pydantic.v1 import SecretStr\n\nfrom lfx.base.models.model import LCModelComponent\nfrom lfx.field_typing import LanguageModel\nfrom lfx.field_typing.range_spec import RangeSpec\nfrom lfx.inputs.inputs import BoolInput, DropdownInput, IntInput, SecretStrInput, SliderInput, StrInput\nfrom lfx.log.logger import logger\nfrom lfx.schema.dotdict import dotdict\n\n\nclass WatsonxAIComponent(LCModelComponent):\n    display_name = \"IBM watsonx.ai\"\n    description = \"Generate text using IBM watsonx.ai foundation models.\"\n    icon = \"WatsonxAI\"\n    name = \"IBMwatsonxModel\"\n    beta = False\n\n    _default_models = [\"ibm/granite-3-2b-instruct\", \"ibm/granite-3-8b-instruct\", \"ibm/granite-13b-instruct-v2\"]\n    _urls = [\n        \"https://us-south.ml.cloud.ibm.com\",\n        \"https://eu-de.ml.cloud.ibm.com\",\n        \"https://eu-gb.ml.cloud.ibm.com\",\n        \"https://au-syd.ml.cloud.ibm.com\",\n        \"https://jp-tok.ml.cloud.ibm.com\",\n        \"https://ca-tor.ml.cloud.ibm.com\",\n    ]\n    inputs = [\n        *LCModelComponent.get_base_inputs(),\n        DropdownInput(\n            name=\"base_url\",\n            display_name=\"watsonx API Endpoint\",\n            info=\"The base URL of the API.\",\n            value=[],\n            options=_urls,\n            real_time_refresh=True,\n            required=True,\n        ),\n        StrInput(\n            name=\"project_id\",\n            display_name=\"watsonx Project ID\",\n            required=True,\n            info=\"The project ID or deployment space ID that is associated with the foundation model.\",\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"Watsonx API Key\",\n            info=\"The API Key to use for the model.\",\n            required=True,\n        ),\n        DropdownInput(\n            name=\"model_name\",\n            display_name=\"Model Name\",\n            options=[],\n            value=None,\n            real_time_refresh=True,\n            required=True,\n            refresh_button=True,\n        ),\n        IntInput(\n            name=\"max_tokens\",\n            display_name=\"Max Tokens\",\n            advanced=True,\n            info=\"The maximum number of tokens to generate.\",\n            range_spec=RangeSpec(min=1, max=4096),\n            value=1000,\n        ),\n        StrInput(\n            name=\"stop_sequence\",\n            display_name=\"Stop Sequence\",\n            advanced=True,\n            info=\"Sequence where generation should stop.\",\n            field_type=\"str\",\n        ),\n        SliderInput(\n            name=\"temperature\",\n            display_name=\"Temperature\",\n            info=\"Controls randomness, higher values increase diversity.\",\n            value=0.1,\n            range_spec=RangeSpec(min=0, max=2, step=0.01),\n            advanced=True,\n        ),\n        SliderInput(\n            name=\"top_p\",\n            display_name=\"Top P\",\n            info=\"The cumulative probability cutoff for token selection. \"\n            \"Lower values mean sampling from a smaller, more top-weighted nucleus.\",\n            value=0.9,\n            range_spec=RangeSpec(min=0, max=1, step=0.01),\n            advanced=True,\n        ),\n        SliderInput(\n            name=\"frequency_penalty\",\n            display_name=\"Frequency Penalty\",\n            info=\"Penalty for frequency of token usage.\",\n            value=0.5,\n            range_spec=RangeSpec(min=-2.0, max=2.0, step=0.01),\n            advanced=True,\n        ),\n        SliderInput(\n            name=\"presence_penalty\",\n            display_name=\"Presence Penalty\",\n            info=\"Penalty for token presence in prior text.\",\n            value=0.3,\n            range_spec=RangeSpec(min=-2.0, max=2.0, step=0.01),\n            advanced=True,\n        ),\n        IntInput(\n            name=\"seed\",\n            display_name=\"Random Seed\",\n            advanced=True,\n            info=\"The random seed for the model.\",\n            value=8,\n        ),\n        BoolInput(\n            name=\"logprobs\",\n            display_name=\"Log Probabilities\",\n            advanced=True,\n            info=\"Whether to return log probabilities of the output tokens.\",\n            value=True,\n        ),\n        IntInput(\n            name=\"top_logprobs\",\n            display_name=\"Top Log Probabilities\",\n            advanced=True,\n            info=\"Number of most likely tokens to return at each position.\",\n            value=3,\n            range_spec=RangeSpec(min=1, max=20),\n        ),\n        StrInput(\n            name=\"logit_bias\",\n            display_name=\"Logit Bias\",\n            advanced=True,\n            info='JSON string of token IDs to bias or suppress (e.g., {\"1003\": -100, \"1004\": 100}).',\n            field_type=\"str\",\n        ),\n    ]\n\n    @staticmethod\n    def fetch_models(base_url: str) -> list[str]:\n        \"\"\"Fetch available models from the watsonx.ai API.\"\"\"\n        try:\n            endpoint = f\"{base_url}/ml/v1/foundation_model_specs\"\n            params = {\"version\": \"2024-09-16\", \"filters\": \"function_text_chat,!lifecycle_withdrawn\"}\n            response = requests.get(endpoint, params=params, timeout=10)\n            response.raise_for_status()\n            data = response.json()\n            models = [model[\"model_id\"] for model in data.get(\"resources\", [])]\n            return sorted(models)\n        except Exception:  # noqa: BLE001\n            logger.exception(\"Error fetching models. Using default models.\")\n            return WatsonxAIComponent._default_models\n\n    def update_build_config(self, build_config: dotdict, field_value: Any, field_name: str | None = None):\n        \"\"\"Update model options when URL or API key changes.\"\"\"\n        if field_name == \"base_url\" and field_value:\n            try:\n                models = self.fetch_models(base_url=field_value)\n                build_config[\"model_name\"][\"options\"] = models\n                if build_config[\"model_name\"][\"value\"]:\n                    build_config[\"model_name\"][\"value\"] = models[0]\n                info_message = f\"Updated model options: {len(models)} models found in {field_value}\"\n                logger.info(info_message)\n            except Exception:  # noqa: BLE001\n                logger.exception(\"Error updating model options.\")\n        if field_name == \"model_name\" and field_value and field_value in WatsonxAIComponent._urls:\n            build_config[\"model_name\"][\"options\"] = self.fetch_models(base_url=field_value)\n            build_config[\"model_name\"][\"value\"] = \"\"\n        return build_config\n\n    def build_model(self) -> LanguageModel:\n        # Parse logit_bias from JSON string if provided\n        logit_bias = None\n        if hasattr(self, \"logit_bias\") and self.logit_bias:\n            try:\n                logit_bias = json.loads(self.logit_bias)\n            except json.JSONDecodeError:\n                logger.warning(\"Invalid logit_bias JSON format. Using default instead.\")\n                logit_bias = {\"1003\": -100, \"1004\": -100}\n\n        chat_params = {\n            \"max_tokens\": getattr(self, \"max_tokens\", None),\n            \"temperature\": getattr(self, \"temperature\", None),\n            \"top_p\": getattr(self, \"top_p\", None),\n            \"frequency_penalty\": getattr(self, \"frequency_penalty\", None),\n            \"presence_penalty\": getattr(self, \"presence_penalty\", None),\n            \"seed\": getattr(self, \"seed\", None),\n            \"stop\": [self.stop_sequence] if self.stop_sequence else [],\n            \"n\": 1,\n            \"logprobs\": getattr(self, \"logprobs\", True),\n            \"top_logprobs\": getattr(self, \"top_logprobs\", None),\n            \"time_limit\": 600000,\n            \"logit_bias\": logit_bias,\n        }\n\n        # Pass API key as plain string to avoid SecretStr serialization issues\n        # when model is configured with with_config() or used in batch operations\n        api_key_value = self.api_key\n        if isinstance(api_key_value, SecretStr):\n            api_key_value = api_key_value.get_secret_value()\n\n        return ChatWatsonx(\n            apikey=api_key_value,\n            url=self.base_url,\n            project_id=self.project_id,\n            model_id=self.model_name,\n            params=chat_params,\n            streaming=self.stream,\n        )\n"
+              },
+              "frequency_penalty": {
+                "_input_type": "SliderInput",
+                "advanced": true,
+                "display_name": "Frequency Penalty",
+                "dynamic": false,
+                "info": "Penalty for frequency of token usage.",
+                "max_label": "",
+                "max_label_icon": "",
+                "min_label": "",
+                "min_label_icon": "",
+                "name": "frequency_penalty",
+                "override_skip": false,
+                "placeholder": "",
+                "range_spec": {
+                  "max": 2,
+                  "min": -2,
+                  "step": 0.01,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "slider_buttons": false,
+                "slider_buttons_options": [],
+                "slider_input": false,
+                "title_case": false,
+                "tool_mode": false,
+                "track_in_telemetry": false,
+                "type": "slider",
+                "value": 0.5
+              },
+              "input_value": {
+                "_input_type": "MessageInput",
+                "advanced": false,
+                "display_name": "Input",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "input_value",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "is_refresh": false,
+              "logit_bias": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "Logit Bias",
+                "dynamic": false,
+                "info": "JSON string of token IDs to bias or suppress (e.g., {\"1003\": -100, \"1004\": 100}).",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "logit_bias",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "logprobs": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Log Probabilities",
+                "dynamic": false,
+                "info": "Whether to return log probabilities of the output tokens.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "logprobs",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              },
+              "max_tokens": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Max Tokens",
+                "dynamic": false,
+                "info": "The maximum number of tokens to generate.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_tokens",
+                "override_skip": false,
+                "placeholder": "",
+                "range_spec": {
+                  "max": 4096,
+                  "min": 1,
+                  "step": 0.1,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 1000
+              },
+              "model_name": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Model Name",
+                "dynamic": false,
+                "external_options": {},
+                "info": "",
+                "name": "model_name",
+                "options": [
+                  "ibm/granite-3-2-8b-instruct",
+                  "ibm/granite-3-3-8b-instruct",
+                  "ibm/granite-3-8b-instruct",
+                  "ibm/granite-4-h-small",
+                  "ibm/granite-guardian-3-8b",
+                  "meta-llama/llama-3-2-11b-vision-instruct",
+                  "meta-llama/llama-3-2-90b-vision-instruct",
+                  "meta-llama/llama-3-3-70b-instruct",
+                  "meta-llama/llama-3-405b-instruct",
+                  "meta-llama/llama-4-maverick-17b-128e-instruct-fp8",
+                  "meta-llama/llama-guard-3-11b-vision",
+                  "mistral-large-2512",
+                  "mistralai/mistral-medium-2505",
+                  "mistralai/mistral-small-3-1-24b-instruct-2503",
+                  "openai/gpt-oss-120b"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "refresh_button": true,
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "ibm/granite-3-2-8b-instruct"
+              },
+              "presence_penalty": {
+                "_input_type": "SliderInput",
+                "advanced": true,
+                "display_name": "Presence Penalty",
+                "dynamic": false,
+                "info": "Penalty for token presence in prior text.",
+                "max_label": "",
+                "max_label_icon": "",
+                "min_label": "",
+                "min_label_icon": "",
+                "name": "presence_penalty",
+                "override_skip": false,
+                "placeholder": "",
+                "range_spec": {
+                  "max": 2,
+                  "min": -2,
+                  "step": 0.01,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "slider_buttons": false,
+                "slider_buttons_options": [],
+                "slider_input": false,
+                "title_case": false,
+                "tool_mode": false,
+                "track_in_telemetry": false,
+                "type": "slider",
+                "value": 0.3
+              },
+              "project_id": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "watsonx Project ID",
+                "dynamic": false,
+                "info": "The project ID or deployment space ID that is associated with the foundation model.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "project_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "91146e4b-59e0-4c04-a826-2731457dd287"
+              },
+              "seed": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Random Seed",
+                "dynamic": false,
+                "info": "The random seed for the model.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "seed",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 8
+              },
+              "stop_sequence": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "Stop Sequence",
+                "dynamic": false,
+                "info": "Sequence where generation should stop.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "stop_sequence",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "stream": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Stream",
+                "dynamic": false,
+                "info": "Stream the response from the model. Streaming works only in Chat.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "stream",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": false
+              },
+              "system_message": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "ai_enabled": false,
+                "copy_field": false,
+                "display_name": "System Message",
+                "dynamic": false,
+                "info": "System message to pass to the model.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "system_message",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "You are an expert code analyst. \nWhen given code, analyze it for: \n1. Code quality and structure \n2. Potential bugs or issues \n3. Security vulnerabilities \n4. Performance improvements \n5. Best practice recommendations  \nProvide clear, actionable feedback."
+              },
+              "temperature": {
+                "_input_type": "SliderInput",
+                "advanced": true,
+                "display_name": "Temperature",
+                "dynamic": false,
+                "info": "Controls randomness, higher values increase diversity.",
+                "max_label": "",
+                "max_label_icon": "",
+                "min_label": "",
+                "min_label_icon": "",
+                "name": "temperature",
+                "override_skip": false,
+                "placeholder": "",
+                "range_spec": {
+                  "max": 2,
+                  "min": 0,
+                  "step": 0.01,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "slider_buttons": false,
+                "slider_buttons_options": [],
+                "slider_input": false,
+                "title_case": false,
+                "tool_mode": false,
+                "track_in_telemetry": false,
+                "type": "slider",
+                "value": 0.1
+              },
+              "top_logprobs": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Top Log Probabilities",
+                "dynamic": false,
+                "info": "Number of most likely tokens to return at each position.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "top_logprobs",
+                "override_skip": false,
+                "placeholder": "",
+                "range_spec": {
+                  "max": 20,
+                  "min": 1,
+                  "step": 0.1,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 3
+              },
+              "top_p": {
+                "_input_type": "SliderInput",
+                "advanced": true,
+                "display_name": "Top P",
+                "dynamic": false,
+                "info": "The cumulative probability cutoff for token selection. Lower values mean sampling from a smaller, more top-weighted nucleus.",
+                "max_label": "",
+                "max_label_icon": "",
+                "min_label": "",
+                "min_label_icon": "",
+                "name": "top_p",
+                "override_skip": false,
+                "placeholder": "",
+                "range_spec": {
+                  "max": 1,
+                  "min": 0,
+                  "step": 0.01,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "slider_buttons": false,
+                "slider_buttons_options": [],
+                "slider_input": false,
+                "title_case": false,
+                "tool_mode": false,
+                "track_in_telemetry": false,
+                "type": "slider",
+                "value": 0.9
+              }
+            },
+            "tool_mode": false
+          },
+          "selected_output": "text_output",
+          "showNode": true,
+          "type": "IBMwatsonxModel"
+        },
+        "dragging": false,
+        "id": "IBMwatsonxModel-3M3ri",
+        "measured": {
+          "height": 629,
+          "width": 320
+        },
+        "position": {
+          "x": 700.3271030044342,
+          "y": -1476.7802407921681
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "CustomComponent-Gsy2V",
+          "node": {
+            "base_classes": [
+              "Data",
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Query Cloudant vector store for Code Agent RAG with Git code analysis support.",
+            "display_name": "Cloudant RAG Query",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "api_key",
+              "cloudant_url",
+              "database_name",
+              "knowledge_base",
+              "technology",
+              "query",
+              "git_code",
+              "git_files",
+              "analysis_mode",
+              "include_suggestions",
+              "embeddings",
+              "watsonx_api_key",
+              "watsonx_url",
+              "watsonx_project_id",
+              "top_k",
+              "llm"
+            ],
+            "frozen": false,
+            "icon": "search",
+            "legacy": false,
+            "lf_version": "1.7.2",
+            "metadata": {
+              "code_hash": "6ab5dbcc8932",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "langflow",
+                    "version": "1.7.2"
+                  },
+                  {
+                    "name": "ibmcloudant",
+                    "version": null
+                  },
+                  {
+                    "name": "ibm_cloud_sdk_core",
+                    "version": null
+                  },
+                  {
+                    "name": "requests",
+                    "version": "2.32.5"
+                  },
+                  {
+                    "name": "langchain_core",
+                    "version": "0.3.83"
+                  }
+                ],
+                "total_dependencies": 5
+              },
+              "module": "custom_components.cloudant_rag_query"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Response",
+                "group_outputs": false,
+                "hidden": null,
+                "loop_types": null,
+                "method": "generate_response",
+                "name": "response",
+                "options": null,
+                "required_inputs": null,
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Code Analysis",
+                "group_outputs": false,
+                "hidden": null,
+                "loop_types": null,
+                "method": "analyze_code",
+                "name": "code_analysis",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Context",
+                "group_outputs": false,
+                "hidden": null,
+                "loop_types": null,
+                "method": "retrieve_context",
+                "name": "context",
+                "options": null,
+                "required_inputs": null,
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Documents",
+                "group_outputs": false,
+                "hidden": null,
+                "loop_types": null,
+                "method": "retrieve_documents",
+                "name": "documents",
+                "options": null,
+                "required_inputs": null,
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "analysis_mode": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Analysis Mode",
+                "dynamic": false,
+                "external_options": {},
+                "info": "Type of code analysis to perform",
+                "name": "analysis_mode",
+                "options": [
+                  "review",
+                  "enhance",
+                  "debug",
+                  "document",
+                  "refactor",
+                  "security"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "review"
+              },
+              "api_key": {
+                "_input_type": "SecretStrInput",
+                "advanced": false,
+                "display_name": "Cloudant API Key",
+                "dynamic": false,
+                "info": "IBM Cloud API key for Cloudant",
+                "input_types": [],
+                "load_from_db": false,
+                "name": "api_key",
+                "override_skip": false,
+                "password": true,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "cloudant_url": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Cloudant URL",
+                "dynamic": false,
+                "info": "Cloudant service URL",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "cloudant_url",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "https://ca763f69-3406-46cf-93aa-c578ecd6e9f6-bluemix.cloudantnosqldb.appdomain.cloud"
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "\"\"\"\r\nCloudant RAG Query Component for Langflow\r\nRetrieves context from Cloudant and generates response\r\nEnhanced for Code Agent integration with Git code analysis\r\n\"\"\"\r\n\r\nfrom langflow.custom import Component\r\nfrom langflow.io import MessageTextInput, SecretStrInput, Output, HandleInput, IntInput, DropdownInput, BoolInput\r\nfrom langflow.schema import Data, Message\r\nfrom ibmcloudant.cloudant_v1 import CloudantV1\r\nfrom ibm_cloud_sdk_core.authenticators import IAMAuthenticator\r\nimport math\r\nimport requests\r\nfrom typing import List, Optional, Dict, Any\r\n\r\n\r\nclass CloudantRAGQueryComponent(Component):\r\n    display_name = \"Cloudant RAG Query\"\r\n    description = \"Query Cloudant vector store for Code Agent RAG with Git code analysis support.\"\r\n    icon = \"search\"\r\n    name = \"CloudantRAGQuery\"\r\n\r\n    inputs = [\r\n        SecretStrInput(\r\n            name=\"api_key\",\r\n            display_name=\"Cloudant API Key\",\r\n            required=True,\r\n            info=\"IBM Cloud API key for Cloudant\"\r\n        ),\r\n        MessageTextInput(\r\n            name=\"cloudant_url\",\r\n            display_name=\"Cloudant URL\",\r\n            required=True,\r\n            info=\"Cloudant service URL\"\r\n        ),\r\n        MessageTextInput(\r\n            name=\"database_name\",\r\n            display_name=\"Database Name\",\r\n            value=\"rag_vectors\",\r\n            required=True\r\n        ),\r\n        DropdownInput(\r\n            name=\"knowledge_base\",\r\n            display_name=\"Knowledge Base\",\r\n            options=[\"code\", \"estimation\", \"enhancement\"],\r\n            value=\"code\",\r\n            info=\"Knowledge base to query\"\r\n        ),\r\n        MessageTextInput(\r\n            name=\"technology\",\r\n            display_name=\"Technology\",\r\n            value=\"springboot\",\r\n            info=\"Technology stack filter (springboot, nodejs, python)\"\r\n        ),\r\n        HandleInput(\r\n            name=\"query\",\r\n            display_name=\"Query (from Chat Input)\",\r\n            input_types=[\"Message\", \"Data\", \"str\"],\r\n            info=\"User query - connect Chat Input here\"\r\n        ),\r\n        HandleInput(\r\n            name=\"git_code\",\r\n            display_name=\"Git Code Data\",\r\n            input_types=[\"Data\", \"Message\", \"str\"],\r\n            required=False,\r\n            info=\"Code from Git repository to analyze. Connect Git loader or paste code.\"\r\n        ),\r\n        HandleInput(\r\n            name=\"git_files\",\r\n            display_name=\"Git Files (Multiple)\",\r\n            input_types=[\"Data\"],\r\n            required=False,\r\n            is_list=True,\r\n            info=\"Multiple files from Git repository as Data objects\"\r\n        ),\r\n        DropdownInput(\r\n            name=\"analysis_mode\",\r\n            display_name=\"Analysis Mode\",\r\n            options=[\"review\", \"enhance\", \"debug\", \"document\", \"refactor\", \"security\"],\r\n            value=\"review\",\r\n            info=\"Type of code analysis to perform\"\r\n        ),\r\n        BoolInput(\r\n            name=\"include_suggestions\",\r\n            display_name=\"Include Improvement Suggestions\",\r\n            value=True,\r\n            info=\"Include actionable improvement suggestions in response\"\r\n        ),\r\n        HandleInput(\r\n            name=\"embeddings\",\r\n            display_name=\"Embeddings\",\r\n            input_types=[\"Embeddings\"],\r\n            required=False,\r\n            info=\"Embedding model - use WatsonX Embeddings for cloud deployment\"\r\n        ),\r\n        SecretStrInput(\r\n            name=\"watsonx_api_key\",\r\n            display_name=\"WatsonX API Key (for embeddings)\",\r\n            required=False,\r\n            info=\"If no Embeddings connected, use WatsonX for embeddings\"\r\n        ),\r\n        MessageTextInput(\r\n            name=\"watsonx_url\",\r\n            display_name=\"WatsonX URL\",\r\n            value=\"https://us-south.ml.cloud.ibm.com\",\r\n            required=False,\r\n            info=\"WatsonX API endpoint\"\r\n        ),\r\n        MessageTextInput(\r\n            name=\"watsonx_project_id\",\r\n            display_name=\"WatsonX Project ID\",\r\n            required=False,\r\n            info=\"WatsonX project ID for embeddings\"\r\n        ),\r\n        IntInput(\r\n            name=\"top_k\",\r\n            display_name=\"Top K Results\",\r\n            value=5,\r\n            info=\"Number of similar documents to retrieve\"\r\n        ),\r\n        HandleInput(\r\n            name=\"llm\",\r\n            display_name=\"LLM (Optional)\",\r\n            input_types=[\"LanguageModel\"],\r\n            required=False,\r\n            info=\"Optional: Connect LLM to generate response with context\"\r\n        ),\r\n    ]\r\n\r\n    outputs = [\r\n        Output(display_name=\"Response\", name=\"response\", method=\"generate_response\"),\r\n        Output(display_name=\"Code Analysis\", name=\"code_analysis\", method=\"analyze_code\"),\r\n        Output(display_name=\"Context\", name=\"context\", method=\"retrieve_context\"),\r\n        Output(display_name=\"Documents\", name=\"documents\", method=\"retrieve_documents\"),\r\n    ]\r\n\r\n    # Analysis mode prompts\r\n    ANALYSIS_PROMPTS = {\r\n        \"review\": \"\"\"Perform a comprehensive code review. Check for:\r\n- Code quality and readability\r\n- Best practices adherence\r\n- Potential bugs or issues\r\n- Performance considerations\r\n- Naming conventions\"\"\",\r\n        \r\n        \"enhance\": \"\"\"Suggest enhancements for this code:\r\n- Performance optimizations\r\n- Better design patterns\r\n- Improved error handling\r\n- Enhanced testability\r\n- Modern language features\"\"\",\r\n        \r\n        \"debug\": \"\"\"Analyze this code for potential issues:\r\n- Logic errors\r\n- Edge cases not handled\r\n- Null/undefined issues\r\n- Resource leaks\r\n- Race conditions\"\"\",\r\n        \r\n        \"document\": \"\"\"Generate documentation for this code:\r\n- Function/method descriptions\r\n- Parameter explanations\r\n- Return value documentation\r\n- Usage examples\r\n- API documentation\"\"\",\r\n        \r\n        \"refactor\": \"\"\"Suggest refactoring improvements:\r\n- Extract methods/functions\r\n- Reduce complexity\r\n- Improve modularity\r\n- Apply SOLID principles\r\n- Remove code smells\"\"\",\r\n        \r\n        \"security\": \"\"\"Perform security analysis:\r\n- Input validation issues\r\n- Injection vulnerabilities\r\n- Authentication/authorization\r\n- Sensitive data exposure\r\n- Security best practices\"\"\"\r\n    }\r\n\r\n    def _get_client(self) -> CloudantV1:\r\n        \"\"\"Initialize Cloudant client\"\"\"\r\n        authenticator = IAMAuthenticator(self.api_key)\r\n        client = CloudantV1(authenticator=authenticator)\r\n        client.set_service_url(self.cloudant_url)\r\n        return client\r\n\r\n    def _cosine_similarity(self, vec1: List[float], vec2: List[float]) -> float:\r\n        \"\"\"Calculate cosine similarity\"\"\"\r\n        dot_product = sum(a * b for a, b in zip(vec1, vec2))\r\n        norm1 = math.sqrt(sum(a * a for a in vec1))\r\n        norm2 = math.sqrt(sum(b * b for b in vec2))\r\n        if norm1 == 0 or norm2 == 0:\r\n            return 0.0\r\n        return dot_product / (norm1 * norm2)\r\n\r\n    def _get_query_text(self) -> str:\r\n        \"\"\"Extract query text from input\"\"\"\r\n        if isinstance(self.query, Message):\r\n            return self.query.text\r\n        elif isinstance(self.query, Data):\r\n            return self.query.data.get(\"text\", str(self.query))\r\n        return str(self.query)\r\n\r\n    def _extract_git_code(self) -> Dict[str, Any]:\r\n        \"\"\"Extract code from Git loader Data objects\"\"\"\r\n        code_files = []\r\n        \r\n        # Process single git_code input\r\n        if self.git_code is not None:\r\n            if isinstance(self.git_code, Data):\r\n                code_files.append(self._parse_git_data(self.git_code))\r\n            elif isinstance(self.git_code, Message):\r\n                code_files.append({\r\n                    \"file_path\": \"unknown\",\r\n                    \"content\": self.git_code.text,\r\n                    \"language\": self._detect_language(\"unknown\")\r\n                })\r\n            elif isinstance(self.git_code, str):\r\n                code_files.append({\r\n                    \"file_path\": \"unknown\",\r\n                    \"content\": self.git_code,\r\n                    \"language\": self._detect_language(\"unknown\")\r\n                })\r\n            elif isinstance(self.git_code, list):\r\n                for item in self.git_code:\r\n                    if isinstance(item, Data):\r\n                        code_files.append(self._parse_git_data(item))\r\n        \r\n        # Process multiple git_files input (list of Data)\r\n        if self.git_files is not None:\r\n            if isinstance(self.git_files, list):\r\n                for item in self.git_files:\r\n                    if isinstance(item, Data):\r\n                        code_files.append(self._parse_git_data(item))\r\n            elif isinstance(self.git_files, Data):\r\n                code_files.append(self._parse_git_data(self.git_files))\r\n        \r\n        return {\r\n            \"files\": code_files,\r\n            \"total_files\": len(code_files),\r\n            \"total_lines\": sum(len(f.get(\"content\", \"\").split(\"\\n\")) for f in code_files)\r\n        }\r\n\r\n    def _parse_git_data(self, data: Data) -> Dict[str, Any]:\r\n        \"\"\"Parse a single Git Data object into code info\"\"\"\r\n        if hasattr(data, 'data') and isinstance(data.data, dict):\r\n            # Handle Data object from GitLoader\r\n            content = data.data.get(\"page_content\", data.data.get(\"text\", data.data.get(\"content\", \"\")))\r\n            metadata = data.data.get(\"metadata\", {})\r\n            file_path = metadata.get(\"source\", metadata.get(\"file_path\", \"unknown\"))\r\n        elif hasattr(data, 'text'):\r\n            content = data.text\r\n            file_path = \"unknown\"\r\n            metadata = {}\r\n        else:\r\n            content = str(data)\r\n            file_path = \"unknown\"\r\n            metadata = {}\r\n        \r\n        return {\r\n            \"file_path\": file_path,\r\n            \"content\": content,\r\n            \"language\": self._detect_language(file_path),\r\n            \"metadata\": metadata,\r\n            \"lines\": len(content.split(\"\\n\")) if content else 0\r\n        }\r\n\r\n    def _detect_language(self, file_path: str) -> str:\r\n        \"\"\"Detect programming language from file extension\"\"\"\r\n        ext_map = {\r\n            \".py\": \"python\",\r\n            \".java\": \"java\",\r\n            \".js\": \"javascript\",\r\n            \".ts\": \"typescript\",\r\n            \".jsx\": \"javascript\",\r\n            \".tsx\": \"typescript\",\r\n            \".go\": \"go\",\r\n            \".rs\": \"rust\",\r\n            \".rb\": \"ruby\",\r\n            \".php\": \"php\",\r\n            \".cs\": \"csharp\",\r\n            \".cpp\": \"cpp\",\r\n            \".c\": \"c\",\r\n            \".h\": \"c\",\r\n            \".hpp\": \"cpp\",\r\n            \".kt\": \"kotlin\",\r\n            \".swift\": \"swift\",\r\n            \".scala\": \"scala\",\r\n            \".sh\": \"shell\",\r\n            \".bash\": \"shell\",\r\n            \".yml\": \"yaml\",\r\n            \".yaml\": \"yaml\",\r\n            \".json\": \"json\",\r\n            \".xml\": \"xml\",\r\n            \".html\": \"html\",\r\n            \".css\": \"css\",\r\n            \".sql\": \"sql\",\r\n            \".md\": \"markdown\",\r\n        }\r\n        \r\n        import os\r\n        ext = os.path.splitext(file_path.lower())[1]\r\n        return ext_map.get(ext, \"text\")\r\n\r\n    def _format_code_for_analysis(self, code_info: Dict[str, Any]) -> str:\r\n        \"\"\"Format extracted code for LLM analysis\"\"\"\r\n        if not code_info.get(\"files\"):\r\n            return \"\"\r\n        \r\n        formatted_parts = []\r\n        for i, file_info in enumerate(code_info[\"files\"], 1):\r\n            file_path = file_info.get(\"file_path\", \"unknown\")\r\n            language = file_info.get(\"language\", \"text\")\r\n            content = file_info.get(\"content\", \"\")\r\n            lines = file_info.get(\"lines\", 0)\r\n            \r\n            formatted_parts.append(f\"\"\"\r\n### File {i}: `{file_path}`\r\n**Language:** {language} | **Lines:** {lines}\r\n\r\n```{language}\r\n{content}\r\n```\r\n\"\"\")\r\n        \r\n        return \"\\n\".join(formatted_parts)\r\n\r\n    def _get_embedding(self, text: str) -> List[float]:\r\n        \"\"\"Get embedding using connected Embeddings or WatsonX fallback\"\"\"\r\n        # Try connected embeddings first\r\n        if self.embeddings is not None:\r\n            return self.embeddings.embed_query(text)\r\n        \r\n        # Fallback to WatsonX embeddings\r\n        if self.watsonx_api_key and self.watsonx_project_id:\r\n            import requests\r\n            \r\n            # Get IAM token\r\n            token_response = requests.post(\r\n                \"https://iam.cloud.ibm.com/identity/token\",\r\n                headers={\"Content-Type\": \"application/x-www-form-urlencoded\"},\r\n                data=f\"grant_type=urn:ibm:params:oauth:grant-type:apikey&apikey={self.watsonx_api_key}\"\r\n            )\r\n            access_token = token_response.json().get(\"access_token\")\r\n            \r\n            # Call WatsonX embeddings API\r\n            embed_response = requests.post(\r\n                f\"{self.watsonx_url}/ml/v1/text/embeddings?version=2024-05-01\",\r\n                headers={\r\n                    \"Authorization\": f\"Bearer {access_token}\",\r\n                    \"Content-Type\": \"application/json\",\r\n                    \"Accept\": \"application/json\"\r\n                },\r\n                json={\r\n                    \"model_id\": \"ibm/slate-125m-english-rtrvr\",\r\n                    \"inputs\": [text],\r\n                    \"project_id\": self.watsonx_project_id\r\n                }\r\n            )\r\n            \r\n            result = embed_response.json()\r\n            if \"results\" in result and len(result[\"results\"]) > 0:\r\n                return result[\"results\"][0][\"embedding\"]\r\n            else:\r\n                raise Exception(f\"WatsonX embedding error: {result}\")\r\n        \r\n        raise Exception(\"No embeddings available. Connect Embeddings component or provide WatsonX credentials.\")\r\n\r\n    def retrieve_documents(self) -> List[Data]:\r\n        \"\"\"Retrieve similar documents from Cloudant\"\"\"\r\n        client = self._get_client()\r\n        query_text = self._get_query_text()\r\n        \r\n        # Generate query embedding\r\n        try:\r\n            query_embedding = self._get_embedding(query_text)\r\n        except Exception as e:\r\n            self.log(f\"Error generating embedding: {e}\")\r\n            return [Data(data={\"error\": str(e), \"content\": f\"Failed to generate embedding: {e}\"})]\r\n        \r\n        # Query Cloudant for documents in this knowledge base\r\n        selector = {\r\n            \"knowledge_base\": self.knowledge_base,\r\n            \"technology\": self.technology\r\n        }\r\n        \r\n        try:\r\n            response = client.post_find(\r\n                db=self.database_name,\r\n                selector=selector,\r\n                limit=100\r\n            ).get_result()\r\n            \r\n            docs = response.get(\"docs\", [])\r\n            \r\n            # Score and rank documents\r\n            scored_docs = []\r\n            for doc in docs:\r\n                if \"embedding\" in doc:\r\n                    similarity = self._cosine_similarity(query_embedding, doc[\"embedding\"])\r\n                    scored_docs.append({\r\n                        \"content\": doc.get(\"content\", \"\"),\r\n                        \"metadata\": doc.get(\"metadata\", {}),\r\n                        \"score\": similarity,\r\n                        \"knowledge_base\": doc.get(\"knowledge_base\"),\r\n                        \"technology\": doc.get(\"technology\")\r\n                    })\r\n            \r\n            # Sort by similarity\r\n            scored_docs.sort(key=lambda x: x[\"score\"], reverse=True)\r\n            top_docs = scored_docs[:self.top_k]\r\n            \r\n            # Convert to Data objects\r\n            return [Data(data=doc) for doc in top_docs]\r\n            \r\n        except Exception as e:\r\n            self.log(f\"Error retrieving documents: {e}\")\r\n            return []\r\n\r\n    def retrieve_context(self) -> Message:\r\n        \"\"\"Retrieve context as formatted text for LLM\"\"\"\r\n        documents = self.retrieve_documents()\r\n        \r\n        if not documents:\r\n            return Message(text=\"No relevant context found.\")\r\n        \r\n        # Format context for LLM\r\n        context_parts = []\r\n        for i, doc in enumerate(documents, 1):\r\n            content = doc.data.get(\"content\", \"\")\r\n            score = doc.data.get(\"score\", 0)\r\n            context_parts.append(f\"[Document {i}] (Relevance: {score:.2f})\\n{content}\")\r\n        \r\n        context = \"\\n\\n---\\n\\n\".join(context_parts)\r\n        \r\n        # Store for reuse\r\n        self._context = context\r\n        self._documents = documents\r\n        \r\n        return Message(\r\n            text=context,\r\n            data={\r\n                \"num_documents\": len(documents),\r\n                \"knowledge_base\": self.knowledge_base,\r\n                \"technology\": self.technology\r\n            }\r\n        )\r\n\r\n    def analyze_code(self) -> Message:\r\n        \"\"\"Analyze Git code with RAG context and return suggestions\"\"\"\r\n        # Extract code from Git input\r\n        code_info = self._extract_git_code()\r\n        \r\n        if not code_info.get(\"files\"):\r\n            return Message(\r\n                text=\"No code provided for analysis. Connect Git loader or provide code input.\",\r\n                data={\"error\": \"No code input\"}\r\n            )\r\n        \r\n        # Get RAG context\r\n        if not hasattr(self, '_context'):\r\n            self.retrieve_context()\r\n        \r\n        context = getattr(self, '_context', \"No context available.\")\r\n        query_text = self._get_query_text()\r\n        formatted_code = self._format_code_for_analysis(code_info)\r\n        \r\n        # Get analysis mode prompt\r\n        analysis_prompt = self.ANALYSIS_PROMPTS.get(self.analysis_mode, self.ANALYSIS_PROMPTS[\"review\"])\r\n        \r\n        # Build system prompt for code analysis\r\n        system_prompt = f\"\"\"You are an expert Code Agent specialized in {self.technology} development.\r\n\r\n## Your Task\r\n{analysis_prompt}\r\n\r\n## Knowledge Base Context\r\nThe following context from the {self.knowledge_base} knowledge base contains best practices and patterns:\r\n\r\n{context}\r\n\r\n## Analysis Guidelines\r\n1. Reference the knowledge base patterns when making suggestions\r\n2. Provide specific, actionable recommendations\r\n3. Include code examples for improvements\r\n4. Prioritize issues by severity (Critical, High, Medium, Low)\r\n5. Be constructive and educational in your feedback\r\n\"\"\"\r\n\r\n        user_prompt = f\"\"\"## User Request\r\n{query_text}\r\n\r\n## Code to Analyze\r\n{formatted_code}\r\n\r\nPlease analyze the code above and provide detailed feedback based on the {self.analysis_mode} mode.\r\n{\"Include specific improvement suggestions with code examples.\" if self.include_suggestions else \"\"}\r\n\"\"\"\r\n\r\n        # If no LLM connected, return formatted analysis request\r\n        if self.llm is None:\r\n            return Message(\r\n                text=f\"\"\"## Code Analysis Request\r\n\r\n**Mode:** {self.analysis_mode}\r\n**Technology:** {self.technology}\r\n**Files:** {code_info['total_files']}\r\n**Total Lines:** {code_info['total_lines']}\r\n\r\n### Query\r\n{query_text}\r\n\r\n### Code\r\n{formatted_code}\r\n\r\n### Knowledge Base Context\r\n{context}\r\n\r\n---\r\n⚠️ *Connect an LLM to generate AI-powered analysis*\r\n\"\"\",\r\n                data={\r\n                    \"code_info\": code_info,\r\n                    \"analysis_mode\": self.analysis_mode,\r\n                    \"knowledge_base\": self.knowledge_base,\r\n                    \"technology\": self.technology,\r\n                    \"has_llm\": False\r\n                }\r\n            )\r\n\r\n        # Call LLM for analysis\r\n        try:\r\n            if hasattr(self.llm, 'invoke'):\r\n                from langchain_core.messages import SystemMessage, HumanMessage\r\n                messages = [\r\n                    SystemMessage(content=system_prompt),\r\n                    HumanMessage(content=user_prompt)\r\n                ]\r\n                response = self.llm.invoke(messages)\r\n                response_text = response.content if hasattr(response, 'content') else str(response)\r\n            elif hasattr(self.llm, 'generate'):\r\n                full_prompt = f\"{system_prompt}\\n\\n{user_prompt}\"\r\n                response = self.llm.generate(full_prompt)\r\n                response_text = str(response)\r\n            else:\r\n                response_text = f\"LLM type not supported for code analysis.\"\r\n\r\n            return Message(\r\n                text=response_text,\r\n                data={\r\n                    \"code_info\": {\r\n                        \"total_files\": code_info[\"total_files\"],\r\n                        \"total_lines\": code_info[\"total_lines\"],\r\n                        \"files\": [{\"file_path\": f[\"file_path\"], \"language\": f[\"language\"], \"lines\": f[\"lines\"]} \r\n                                  for f in code_info[\"files\"]]\r\n                    },\r\n                    \"analysis_mode\": self.analysis_mode,\r\n                    \"knowledge_base\": self.knowledge_base,\r\n                    \"technology\": self.technology,\r\n                    \"num_documents\": len(getattr(self, '_documents', [])),\r\n                    \"has_llm\": True\r\n                }\r\n            )\r\n\r\n        except Exception as e:\r\n            self.log(f\"Error in code analysis: {e}\")\r\n            return Message(\r\n                text=f\"Error during code analysis: {e}\",\r\n                data={\"error\": str(e)}\r\n            )\r\n\r\n    def generate_response(self) -> Message:\r\n        \"\"\"Generate RAG response using LLM with retrieved context and optional code\"\"\"\r\n        # Get context if not already retrieved\r\n        if not hasattr(self, '_context'):\r\n            self.retrieve_context()\r\n        \r\n        query_text = self._get_query_text()\r\n        context = getattr(self, '_context', \"No context available.\")\r\n        \r\n        # Check if code is provided - if so, include it in the response\r\n        code_info = self._extract_git_code()\r\n        has_code = code_info.get(\"total_files\", 0) > 0\r\n        formatted_code = self._format_code_for_analysis(code_info) if has_code else \"\"\r\n        \r\n        # If no LLM connected, just return context with query\r\n        if self.llm is None:\r\n            response_text = f\"**Query:** {query_text}\\n\\n**Retrieved Context:**\\n\\n{context}\"\r\n            if has_code:\r\n                response_text += f\"\\n\\n**Code Provided:**\\n{formatted_code}\"\r\n            \r\n            return Message(\r\n                text=response_text,\r\n                data={\r\n                    \"query\": query_text,\r\n                    \"knowledge_base\": self.knowledge_base,\r\n                    \"technology\": self.technology,\r\n                    \"has_code\": has_code,\r\n                    \"code_files\": code_info.get(\"total_files\", 0),\r\n                    \"has_llm\": False\r\n                }\r\n            )\r\n        \r\n        # Build prompt for Code Agent\r\n        if has_code:\r\n            system_prompt = f\"\"\"You are a Code Agent specialized in {self.technology} development.\r\nUse the following context from the {self.knowledge_base} knowledge base to answer the user's question.\r\nThe user has provided code for analysis - review it and provide specific, actionable recommendations.\r\n\r\nKNOWLEDGE BASE CONTEXT:\r\n{context}\r\n\r\nUSER'S CODE:\r\n{formatted_code}\r\n\r\nGuidelines:\r\n1. Provide specific, actionable code examples and best practices\r\n2. Reference the knowledge base patterns when applicable\r\n3. If the context doesn't contain relevant information, provide general guidance\r\n4. Be constructive and educational in your feedback\r\n\"\"\"\r\n        else:\r\n            system_prompt = f\"\"\"You are a Code Agent specialized in {self.technology} development.\r\nUse the following context from the {self.knowledge_base} knowledge base to answer the user's question.\r\nProvide specific, actionable code examples and best practices.\r\nIf the context doesn't contain relevant information, say so and provide general guidance.\r\n\r\nCONTEXT:\r\n{context}\r\n\"\"\"\r\n        \r\n        user_prompt = query_text\r\n        \r\n        try:\r\n            # Call the LLM\r\n            if hasattr(self.llm, 'invoke'):\r\n                # LangChain-style LLM\r\n                from langchain_core.messages import SystemMessage, HumanMessage\r\n                messages = [\r\n                    SystemMessage(content=system_prompt),\r\n                    HumanMessage(content=user_prompt)\r\n                ]\r\n                response = self.llm.invoke(messages)\r\n                response_text = response.content if hasattr(response, 'content') else str(response)\r\n            elif hasattr(self.llm, 'generate'):\r\n                # Direct generate method\r\n                full_prompt = f\"{system_prompt}\\n\\nUser Question: {user_prompt}\"\r\n                response = self.llm.generate(full_prompt)\r\n                response_text = str(response)\r\n            else:\r\n                # Fallback\r\n                response_text = f\"LLM type not supported. Context retrieved:\\n\\n{context}\"\r\n            \r\n            return Message(\r\n                text=response_text,\r\n                data={\r\n                    \"query\": query_text,\r\n                    \"knowledge_base\": self.knowledge_base,\r\n                    \"technology\": self.technology,\r\n                    \"num_documents\": len(getattr(self, '_documents', [])),\r\n                    \"has_code\": has_code,\r\n                    \"code_files\": code_info.get(\"total_files\", 0),\r\n                    \"has_llm\": True\r\n                }\r\n            )\r\n            \r\n        except Exception as e:\r\n            self.log(f\"Error generating response: {e}\")\r\n            return Message(\r\n                text=f\"Error generating response: {e}\\n\\n**Retrieved Context:**\\n\\n{context}\",\r\n                data={\"error\": str(e)}\r\n            )\r\n"
+              },
+              "database_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Database Name",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "database_name",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "rag_vectors_springboot_code"
+              },
+              "embeddings": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Embeddings",
+                "dynamic": false,
+                "info": "Embedding model - use WatsonX Embeddings for cloud deployment",
+                "input_types": [
+                  "Embeddings"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "embeddings",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "other",
+                "value": ""
+              },
+              "git_code": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Git Code Data",
+                "dynamic": false,
+                "info": "Code from Git repository to analyze. Connect Git loader or paste code.",
+                "input_types": [
+                  "Data",
+                  "Message",
+                  "str"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "git_code",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "other",
+                "value": ""
+              },
+              "git_files": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Git Files (Multiple)",
+                "dynamic": false,
+                "info": "Multiple files from Git repository as Data objects",
+                "input_types": [
+                  "Data"
+                ],
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "git_files",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "other",
+                "value": ""
+              },
+              "include_suggestions": {
+                "_input_type": "BoolInput",
+                "advanced": false,
+                "display_name": "Include Improvement Suggestions",
+                "dynamic": false,
+                "info": "Include actionable improvement suggestions in response",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "include_suggestions",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              },
+              "knowledge_base": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Knowledge Base",
+                "dynamic": false,
+                "external_options": {},
+                "info": "Knowledge base to query",
+                "name": "knowledge_base",
+                "options": [
+                  "code",
+                  "estimation",
+                  "enhancement"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "code"
+              },
+              "llm": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "LLM (Optional)",
+                "dynamic": false,
+                "info": "Optional: Connect LLM to generate response with context",
+                "input_types": [
+                  "LanguageModel"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "llm",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "other",
+                "value": ""
+              },
+              "query": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Query (from Chat Input)",
+                "dynamic": false,
+                "info": "User query - connect Chat Input here",
+                "input_types": [
+                  "Message",
+                  "Data",
+                  "str"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "query",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "other",
+                "value": ""
+              },
+              "technology": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Technology",
+                "dynamic": false,
+                "info": "Technology stack filter (springboot, nodejs, python)",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "technology",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "springboot"
+              },
+              "top_k": {
+                "_input_type": "IntInput",
+                "advanced": false,
+                "display_name": "Top K Results",
+                "dynamic": false,
+                "info": "Number of similar documents to retrieve",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "top_k",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 5
+              },
+              "watsonx_api_key": {
+                "_input_type": "SecretStrInput",
+                "advanced": false,
+                "display_name": "WatsonX API Key (for embeddings)",
+                "dynamic": false,
+                "info": "If no Embeddings connected, use WatsonX for embeddings",
+                "input_types": [],
+                "load_from_db": false,
+                "name": "watsonx_api_key",
+                "override_skip": false,
+                "password": true,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "watsonx_project_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "WatsonX Project ID",
+                "dynamic": false,
+                "info": "WatsonX project ID for embeddings",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "watsonx_project_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "91146e4b-59e0-4c04-a826-2731457dd287"
+              },
+              "watsonx_url": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "WatsonX URL",
+                "dynamic": false,
+                "info": "WatsonX API endpoint",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "watsonx_url",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "https://us-south.ml.cloud.ibm.com"
+              }
+            },
+            "tool_mode": false
+          },
+          "selected_output": "code_analysis",
+          "showNode": true,
+          "type": "CloudantRAGQuery"
+        },
+        "dragging": false,
+        "id": "CustomComponent-Gsy2V",
+        "measured": {
+          "height": 1219,
+          "width": 320
+        },
+        "position": {
+          "x": 222.3512992778863,
+          "y": -1590.4512586503954
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "WatsonxEmbeddingsComponent-He057",
+          "node": {
+            "base_classes": [
+              "Embeddings"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Generate embeddings using IBM watsonx.ai models.",
+            "display_name": "IBM watsonx.ai Embeddings",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "url",
+              "project_id",
+              "api_key",
+              "model_name",
+              "truncate_input_tokens",
+              "input_text"
+            ],
+            "frozen": false,
+            "icon": "WatsonxAI",
+            "last_updated": "2026-01-31T20:02:39.919Z",
+            "legacy": false,
+            "lf_version": "1.7.2",
+            "metadata": {
+              "code_hash": "ffded413ea90",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "requests",
+                    "version": "2.32.5"
+                  },
+                  {
+                    "name": "ibm_watsonx_ai",
+                    "version": "1.5.1"
+                  },
+                  {
+                    "name": "langchain_ibm",
+                    "version": "0.3.20"
+                  },
+                  {
+                    "name": "pydantic",
+                    "version": "2.11.10"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": "0.2.1"
+                  }
+                ],
+                "total_dependencies": 5
+              },
+              "module": "lfx.components.ibm.watsonx_embeddings.WatsonxEmbeddingsComponent"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Embedding Model",
+                "group_outputs": false,
+                "loop_types": null,
+                "method": "build_embeddings",
+                "name": "embeddings",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Embeddings",
+                "tool_mode": true,
+                "types": [
+                  "Embeddings"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_frontend_node_flow_id": {
+                "value": "5472e7ef-e4c5-4bc6-b4f8-9431f1c1e507"
+              },
+              "_frontend_node_folder_id": {
+                "value": "29cb05c3-5761-4146-af88-a42072bc7ac3"
+              },
+              "_type": "Component",
+              "api_key": {
+                "_input_type": "SecretStrInput",
+                "advanced": false,
+                "display_name": "Watsonx API Key",
+                "dynamic": false,
+                "info": "The API Key to use for the model.",
+                "input_types": [],
+                "load_from_db": false,
+                "name": "api_key",
+                "override_skip": false,
+                "password": true,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from typing import Any\n\nimport requests\nfrom ibm_watsonx_ai import APIClient, Credentials\nfrom ibm_watsonx_ai.metanames import EmbedTextParamsMetaNames\nfrom langchain_ibm import WatsonxEmbeddings\nfrom pydantic.v1 import SecretStr\n\nfrom lfx.base.embeddings.model import LCEmbeddingsModel\nfrom lfx.field_typing import Embeddings\nfrom lfx.io import BoolInput, DropdownInput, IntInput, SecretStrInput, StrInput\nfrom lfx.log.logger import logger\nfrom lfx.schema.dotdict import dotdict\n\n\nclass WatsonxEmbeddingsComponent(LCEmbeddingsModel):\n    display_name = \"IBM watsonx.ai Embeddings\"\n    description = \"Generate embeddings using IBM watsonx.ai models.\"\n    icon = \"WatsonxAI\"\n    name = \"WatsonxEmbeddingsComponent\"\n\n    # models present in all the regions\n    _default_models = [\n        \"sentence-transformers/all-minilm-l12-v2\",\n        \"ibm/slate-125m-english-rtrvr-v2\",\n        \"ibm/slate-30m-english-rtrvr-v2\",\n        \"intfloat/multilingual-e5-large\",\n    ]\n\n    inputs = [\n        DropdownInput(\n            name=\"url\",\n            display_name=\"watsonx API Endpoint\",\n            info=\"The base URL of the API.\",\n            value=None,\n            options=[\n                \"https://us-south.ml.cloud.ibm.com\",\n                \"https://eu-de.ml.cloud.ibm.com\",\n                \"https://eu-gb.ml.cloud.ibm.com\",\n                \"https://au-syd.ml.cloud.ibm.com\",\n                \"https://jp-tok.ml.cloud.ibm.com\",\n                \"https://ca-tor.ml.cloud.ibm.com\",\n            ],\n            real_time_refresh=True,\n        ),\n        StrInput(\n            name=\"project_id\",\n            display_name=\"watsonx project id\",\n            info=\"The project ID or deployment space ID that is associated with the foundation model.\",\n            required=True,\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"Watsonx API Key\",\n            info=\"The API Key to use for the model.\",\n            required=True,\n        ),\n        DropdownInput(\n            name=\"model_name\",\n            display_name=\"Model Name\",\n            options=[],\n            value=None,\n            dynamic=True,\n            required=True,\n        ),\n        IntInput(\n            name=\"truncate_input_tokens\",\n            display_name=\"Truncate Input Tokens\",\n            advanced=True,\n            value=200,\n        ),\n        BoolInput(\n            name=\"input_text\",\n            display_name=\"Include the original text in the output\",\n            value=True,\n            advanced=True,\n        ),\n    ]\n\n    @staticmethod\n    def fetch_models(base_url: str) -> list[str]:\n        \"\"\"Fetch available models from the watsonx.ai API.\"\"\"\n        try:\n            endpoint = f\"{base_url}/ml/v1/foundation_model_specs\"\n            params = {\n                \"version\": \"2024-09-16\",\n                \"filters\": \"function_embedding,!lifecycle_withdrawn:and\",\n            }\n            response = requests.get(endpoint, params=params, timeout=10)\n            response.raise_for_status()\n            data = response.json()\n            models = [model[\"model_id\"] for model in data.get(\"resources\", [])]\n            return sorted(models)\n        except Exception:  # noqa: BLE001\n            logger.exception(\"Error fetching models\")\n            return WatsonxEmbeddingsComponent._default_models\n\n    def update_build_config(self, build_config: dotdict, field_value: Any, field_name: str | None = None):\n        \"\"\"Update model options when URL or API key changes.\"\"\"\n        logger.debug(\n            \"Updating build config. Field name: %s, Field value: %s\",\n            field_name,\n            field_value,\n        )\n\n        if field_name == \"url\" and field_value:\n            try:\n                models = self.fetch_models(base_url=build_config.url.value)\n                build_config.model_name.options = models\n                if build_config.model_name.value:\n                    build_config.model_name.value = models[0]\n                info_message = f\"Updated model options: {len(models)} models found in {build_config.url.value}\"\n                logger.info(info_message)\n            except Exception:  # noqa: BLE001\n                logger.exception(\"Error updating model options.\")\n\n    def build_embeddings(self) -> Embeddings:\n        credentials = Credentials(\n            api_key=SecretStr(self.api_key).get_secret_value(),\n            url=self.url,\n        )\n\n        api_client = APIClient(credentials)\n\n        params = {\n            EmbedTextParamsMetaNames.TRUNCATE_INPUT_TOKENS: self.truncate_input_tokens,\n            EmbedTextParamsMetaNames.RETURN_OPTIONS: {\"input_text\": self.input_text},\n        }\n\n        return WatsonxEmbeddings(\n            model_id=self.model_name,\n            params=params,\n            watsonx_client=api_client,\n            project_id=self.project_id,\n        )\n"
+              },
+              "input_text": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Include the original text in the output",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "input_text",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              },
+              "is_refresh": false,
+              "model_name": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Model Name",
+                "dynamic": true,
+                "external_options": {},
+                "info": "",
+                "name": "model_name",
+                "options": [
+                  "ibm/granite-embedding-278m-multilingual",
+                  "ibm/slate-125m-english-rtrvr-v2",
+                  "ibm/slate-30m-english-rtrvr-v2",
+                  "intfloat/multilingual-e5-large",
+                  "sentence-transformers/all-minilm-l6-v2"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "ibm/granite-embedding-278m-multilingual"
+              },
+              "project_id": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "watsonx project id",
+                "dynamic": false,
+                "info": "The project ID or deployment space ID that is associated with the foundation model.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "project_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "91146e4b-59e0-4c04-a826-2731457dd287"
+              },
+              "truncate_input_tokens": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Truncate Input Tokens",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "truncate_input_tokens",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 200
+              },
+              "url": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "watsonx API Endpoint",
+                "dynamic": false,
+                "external_options": {},
+                "info": "The base URL of the API.",
+                "name": "url",
+                "options": [
+                  "https://us-south.ml.cloud.ibm.com",
+                  "https://eu-de.ml.cloud.ibm.com",
+                  "https://eu-gb.ml.cloud.ibm.com",
+                  "https://au-syd.ml.cloud.ibm.com",
+                  "https://jp-tok.ml.cloud.ibm.com",
+                  "https://ca-tor.ml.cloud.ibm.com"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "https://us-south.ml.cloud.ibm.com"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "WatsonxEmbeddingsComponent"
+        },
+        "dragging": false,
+        "id": "WatsonxEmbeddingsComponent-He057",
+        "measured": {
+          "height": 449,
+          "width": 320
+        },
+        "position": {
+          "x": -391.60428720083223,
+          "y": -923.9417361095462
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "GitLoaderComponent-YqKfi",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Load and filter documents from a local or remote Git repository. Use a local repo path or clone from a remote URL.",
+            "display_name": "Git",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "repo_source",
+              "repo_path",
+              "clone_url",
+              "branch",
+              "file_filter",
+              "content_filter"
+            ],
+            "frozen": false,
+            "icon": "GitLoader",
+            "last_updated": "2026-02-01T00:27:42.284Z",
+            "legacy": false,
+            "lf_version": "1.7.2",
+            "metadata": {
+              "code_hash": "ac5de0564a4f",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "anyio",
+                    "version": "4.12.1"
+                  },
+                  {
+                    "name": "langchain_community",
+                    "version": "0.3.21"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": "0.2.1"
+                  }
+                ],
+                "total_dependencies": 3
+              },
+              "module": "lfx.components.git.git.GitLoaderComponent"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Data",
+                "group_outputs": false,
+                "loop_types": null,
+                "method": "load_documents",
+                "name": "data",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_frontend_node_flow_id": {
+                "value": "5472e7ef-e4c5-4bc6-b4f8-9431f1c1e507"
+              },
+              "_frontend_node_folder_id": {
+                "value": "29cb05c3-5761-4146-af88-a42072bc7ac3"
+              },
+              "_type": "Component",
+              "branch": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Branch",
+                "dynamic": false,
+                "info": "The branch to load files from. Defaults to 'main'.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "branch",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "master"
+              },
+              "clone_url": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Clone URL",
+                "dynamic": true,
+                "info": "The URL of the Git repository to clone (used if 'Clone' is selected).",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "clone_url",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "https://github.com/gsomnath/Complete-Python-3-Bootcamp.git"
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "import re\nimport tempfile\nfrom contextlib import asynccontextmanager\nfrom fnmatch import fnmatch\nfrom pathlib import Path\n\nimport anyio\nfrom langchain_community.document_loaders.git import GitLoader\n\nfrom lfx.custom.custom_component.component import Component\nfrom lfx.io import DropdownInput, MessageTextInput, Output\nfrom lfx.schema.data import Data\n\n\nclass GitLoaderComponent(Component):\n    display_name = \"Git\"\n    description = (\n        \"Load and filter documents from a local or remote Git repository. \"\n        \"Use a local repo path or clone from a remote URL.\"\n    )\n    trace_type = \"tool\"\n    icon = \"GitLoader\"\n\n    inputs = [\n        DropdownInput(\n            name=\"repo_source\",\n            display_name=\"Repository Source\",\n            options=[\"Local\", \"Remote\"],\n            required=True,\n            info=\"Select whether to use a local repo path or clone from a remote URL.\",\n            real_time_refresh=True,\n        ),\n        MessageTextInput(\n            name=\"repo_path\",\n            display_name=\"Local Repository Path\",\n            required=False,\n            info=\"The local path to the existing Git repository (used if 'Local' is selected).\",\n            dynamic=True,\n            show=False,\n        ),\n        MessageTextInput(\n            name=\"clone_url\",\n            display_name=\"Clone URL\",\n            required=False,\n            info=\"The URL of the Git repository to clone (used if 'Clone' is selected).\",\n            dynamic=True,\n            show=False,\n        ),\n        MessageTextInput(\n            name=\"branch\",\n            display_name=\"Branch\",\n            required=False,\n            value=\"main\",\n            info=\"The branch to load files from. Defaults to 'main'.\",\n        ),\n        MessageTextInput(\n            name=\"file_filter\",\n            display_name=\"File Filter\",\n            required=False,\n            advanced=True,\n            info=(\n                \"Patterns to filter files. For example:\\n\"\n                \"Include only .py files: '*.py'\\n\"\n                \"Exclude .py files: '!*.py'\\n\"\n                \"Multiple patterns can be separated by commas.\"\n            ),\n        ),\n        MessageTextInput(\n            name=\"content_filter\",\n            display_name=\"Content Filter\",\n            required=False,\n            advanced=True,\n            info=\"A regex pattern to filter files based on their content.\",\n        ),\n    ]\n\n    outputs = [\n        Output(name=\"data\", display_name=\"Data\", method=\"load_documents\"),\n    ]\n\n    @staticmethod\n    def is_binary(file_path: str | Path) -> bool:\n        \"\"\"Check if a file is binary by looking for null bytes.\"\"\"\n        try:\n            with Path(file_path).open(\"rb\") as file:\n                content = file.read(1024)\n                return b\"\\x00\" in content\n        except Exception:  # noqa: BLE001\n            return True\n\n    @staticmethod\n    def check_file_patterns(file_path: str | Path, patterns: str) -> bool:\n        \"\"\"Check if a file matches the given patterns.\n\n        Args:\n            file_path: Path to the file to check\n            patterns: Comma-separated list of glob patterns\n\n        Returns:\n            bool: True if file should be included, False if excluded\n        \"\"\"\n        # Handle empty or whitespace-only patterns\n        if not patterns or patterns.isspace():\n            return True\n\n        path_str = str(file_path)\n        file_name = Path(path_str).name\n        pattern_list: list[str] = [pattern.strip() for pattern in patterns.split(\",\") if pattern.strip()]\n\n        # If no valid patterns after stripping, treat as include all\n        if not pattern_list:\n            return True\n\n        # Process exclusion patterns first\n        for pattern in pattern_list:\n            if pattern.startswith(\"!\"):\n                # For exclusions, match against both full path and filename\n                exclude_pattern = pattern[1:]\n                if fnmatch(path_str, exclude_pattern) or fnmatch(file_name, exclude_pattern):\n                    return False\n\n        # Then check inclusion patterns\n        include_patterns = [p for p in pattern_list if not p.startswith(\"!\")]\n        # If no include patterns, treat as include all\n        if not include_patterns:\n            return True\n\n        # For inclusions, match against both full path and filename\n        return any(fnmatch(path_str, pattern) or fnmatch(file_name, pattern) for pattern in include_patterns)\n\n    @staticmethod\n    def check_content_pattern(file_path: str | Path, pattern: str) -> bool:\n        \"\"\"Check if file content matches the given regex pattern.\n\n        Args:\n            file_path: Path to the file to check\n            pattern: Regex pattern to match against content\n\n        Returns:\n            bool: True if content matches, False otherwise\n        \"\"\"\n        try:\n            # Check if file is binary\n            with Path(file_path).open(\"rb\") as file:\n                content = file.read(1024)\n                if b\"\\x00\" in content:\n                    return False\n\n            # Try to compile the regex pattern first\n            try:\n                # Use the MULTILINE flag to better handle text content\n                content_regex = re.compile(pattern, re.MULTILINE)\n                # Test the pattern with a simple string to catch syntax errors\n                test_str = \"test\\nstring\"\n                if not content_regex.search(test_str):\n                    # Pattern is valid but doesn't match test string\n                    pass\n            except (re.error, TypeError, ValueError):\n                return False\n\n            # If not binary and regex is valid, check content\n            with Path(file_path).open(encoding=\"utf-8\") as file:\n                file_content = file.read()\n            return bool(content_regex.search(file_content))\n        except (OSError, UnicodeDecodeError):\n            return False\n\n    def build_combined_filter(self, file_filter_patterns: str | None = None, content_filter_pattern: str | None = None):\n        \"\"\"Build a combined filter function from file and content patterns.\n\n        Args:\n            file_filter_patterns: Comma-separated glob patterns\n            content_filter_pattern: Regex pattern for content\n\n        Returns:\n            callable: Filter function that takes a file path and returns bool\n        \"\"\"\n\n        def combined_filter(file_path: str) -> bool:\n            try:\n                path = Path(file_path)\n\n                # Check if file exists and is readable\n                if not path.exists():\n                    return False\n\n                # Check if file is binary\n                if self.is_binary(path):\n                    return False\n\n                # Apply file pattern filters\n                if file_filter_patterns and not self.check_file_patterns(path, file_filter_patterns):\n                    return False\n\n                # Apply content filter\n                return not (content_filter_pattern and not self.check_content_pattern(path, content_filter_pattern))\n            except Exception:  # noqa: BLE001\n                return False\n\n        return combined_filter\n\n    @asynccontextmanager\n    async def temp_clone_dir(self):\n        \"\"\"Context manager for handling temporary clone directory.\"\"\"\n        temp_dir = None\n        try:\n            temp_dir = tempfile.mkdtemp(prefix=\"langflow_clone_\")\n            yield temp_dir\n        finally:\n            if temp_dir:\n                await anyio.Path(temp_dir).rmdir()\n\n    def update_build_config(self, build_config: dict, field_value: str, field_name: str | None = None) -> dict:\n        # Hide fields by default\n        build_config[\"repo_path\"][\"show\"] = False\n        build_config[\"clone_url\"][\"show\"] = False\n\n        if field_name == \"repo_source\":\n            if field_value == \"Local\":\n                build_config[\"repo_path\"][\"show\"] = True\n                build_config[\"repo_path\"][\"required\"] = True\n                build_config[\"clone_url\"][\"required\"] = False\n            elif field_value == \"Remote\":\n                build_config[\"clone_url\"][\"show\"] = True\n                build_config[\"clone_url\"][\"required\"] = True\n                build_config[\"repo_path\"][\"required\"] = False\n\n        return build_config\n\n    async def build_gitloader(self) -> GitLoader:\n        file_filter_patterns = getattr(self, \"file_filter\", None)\n        content_filter_pattern = getattr(self, \"content_filter\", None)\n\n        combined_filter = self.build_combined_filter(file_filter_patterns, content_filter_pattern)\n\n        repo_source = getattr(self, \"repo_source\", None)\n        if repo_source == \"Local\":\n            repo_path = self.repo_path\n            clone_url = None\n        else:\n            # Clone source\n            clone_url = self.clone_url\n            async with self.temp_clone_dir() as temp_dir:\n                repo_path = temp_dir\n\n        # Only pass branch if it's explicitly set\n        branch = getattr(self, \"branch\", None)\n        if not branch:\n            branch = None\n\n        return GitLoader(\n            repo_path=repo_path,\n            clone_url=clone_url if repo_source == \"Remote\" else None,\n            branch=branch,\n            file_filter=combined_filter,\n        )\n\n    async def load_documents(self) -> list[Data]:\n        gitloader = await self.build_gitloader()\n        data = [Data.from_document(doc) async for doc in gitloader.alazy_load()]\n        self.status = data\n        return data\n"
+              },
+              "content_filter": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Content Filter",
+                "dynamic": false,
+                "info": "A regex pattern to filter files based on their content.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "content_filter",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "file_filter": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "File Filter",
+                "dynamic": false,
+                "info": "Patterns to filter files. For example:\nInclude only .py files: '*.py'\nExclude .py files: '!*.py'\nMultiple patterns can be separated by commas.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "file_filter",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "is_refresh": false,
+              "repo_path": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Local Repository Path",
+                "dynamic": true,
+                "info": "The local path to the existing Git repository (used if 'Local' is selected).",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "repo_path",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": false,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "repo_source": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Repository Source",
+                "dynamic": false,
+                "external_options": {},
+                "info": "Select whether to use a local repo path or clone from a remote URL.",
+                "name": "repo_source",
+                "options": [
+                  "Local",
+                  "Remote"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "Remote"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "GitLoaderComponent"
+        },
+        "dragging": false,
+        "id": "GitLoaderComponent-YqKfi",
+        "measured": {
+          "height": 399,
+          "width": 320
+        },
+        "position": {
+          "x": -361.49203329864724,
+          "y": -1553.6318387752654
+        },
+        "selected": false,
+        "type": "genericNode"
+      }
+    ],
+    "viewport": {
+      "x": 505.275131628011,
+      "y": 1183.5309192057796,
+      "zoom": 0.7166828249683048
+    }
+  },
+  "description": "Connect the Dots, Craft Language.",
+  "endpoint_name": null,
+  "id": "5472e7ef-e4c5-4bc6-b4f8-9431f1c1e507",
+  "is_component": false,
+  "last_tested_version": "1.7.2",
+  "name": "CodeAgent",
+  "tags": []
+}

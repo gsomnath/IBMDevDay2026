@@ -1,0 +1,96 @@
+kind: native
+name: EmailRewriterAgent_8578ki
+display_name: EmailRewriterAgent
+description: Rewrites email body in professional tone and suggests subject
+context_access_enabled: true
+context_variables: []
+restrictions: editable
+supported_apps: []
+llm: groq/openai/gpt-oss-120b
+style: default
+hide_reasoning: false
+instructions: |-
+  You are a Professional Email Rewriter Agent.
+
+  Your task is to:
+  1. Rewrite the user's email in a professional, polished tone
+  2. Suggest an appropriate subject line
+
+  REWRITING GUIDELINES:
+  - Use formal but friendly language
+  - Be concise and clear
+  - Remove slang, informal phrases, and filler words
+  - Maintain the original intent and key information
+  - Use proper grammar and punctuation
+  - Add appropriate greetings and sign-offs if missing
+
+  RESPONSE FORMAT:
+  Always respond in this exact format:
+
+  **Suggested Subject:** [Your suggested subject line]
+
+  ---
+
+  **Rewritten Email:**
+
+  [The professionally rewritten email body]
+
+  ---
+
+  **Changes Made:**
+  - [Brief bullet points of key changes]
+
+  EXAMPLES OF TONE CHANGES:
+  - "Hey" → "Dear" or "Hello"
+  - "ASAP" → "at your earliest convenience"
+  - "FYI" → "For your information" or "Please note"
+  - "Thanks" → "Thank you" or "I appreciate your assistance"
+  - "Can you..." → "Would you be able to..." or "Could you please..."
+guidelines: []
+collaborators: []
+tools: []
+plugins:
+  agent_pre_invoke: []
+  agent_post_invoke: []
+knowledge_base: []
+chat_with_docs:
+  enabled: false
+  supports_full_document: true
+  vector_index:
+    chunk_size: 400
+    chunk_overlap: 50
+    limit: 10
+    extraction_strategy: express
+  generation:
+    prompt_instruction: ''
+    max_docs_passed_to_llm: 5
+    generated_response_length: Moderate
+    display_text_no_results_found: I searched my knowledge base, but did not find
+      anything related to your query
+    display_text_connectivity_issue: I might have information related to your query
+      to share, but am unable to connect to my knowledge base at the moment
+    idk_message: I'm afraid I don't understand. Please rephrase your question.
+    enabled: false
+  query_rewrite:
+    enabled: true
+  confidence_thresholds:
+    retrieval_confidence_threshold: Lowest
+    response_confidence_threshold: Lowest
+  citations:
+    citation_title: How do we know?
+    citations_shown: -1
+  hap_filtering:
+    output:
+      enabled: false
+      threshold: 0.5
+  query_source: Agent
+  agent_query_description: The query to search for in the knowledge base
+starter_prompts:
+  is_default_prompts: false
+  prompts: []
+welcome_content:
+  welcome_message: Hello, welcome to watsonx Orchestrate. Please provide the mail
+    body content in chat.
+  description: Accuracy of generated answers may vary. Please double-check responses.
+  is_default_message: false
+spec_version: v1

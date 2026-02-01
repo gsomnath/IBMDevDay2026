@@ -1,0 +1,2635 @@
+{
+  "data": {
+    "edges": [
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "DoclingInline",
+            "id": "DoclingInline-CSaVB",
+            "name": "dataframe",
+            "output_types": [
+              "DataFrame"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "data_inputs",
+            "id": "ChunkDoclingDocument-XYHHq",
+            "inputTypes": [
+              "Data",
+              "DataFrame"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__DoclingInline-CSaVB{œdataTypeœ:œDoclingInlineœ,œidœ:œDoclingInline-CSaVBœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}-ChunkDoclingDocument-XYHHq{œfieldNameœ:œdata_inputsœ,œidœ:œChunkDoclingDocument-XYHHqœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "DoclingInline-CSaVB",
+        "sourceHandle": "{œdataTypeœ:œDoclingInlineœ,œidœ:œDoclingInline-CSaVBœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}",
+        "target": "ChunkDoclingDocument-XYHHq",
+        "targetHandle": "{œfieldNameœ:œdata_inputsœ,œidœ:œChunkDoclingDocument-XYHHqœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "WatsonxEmbeddingsComponent",
+            "id": "WatsonxEmbeddingsComponent-Nf6Pa",
+            "name": "embeddings",
+            "output_types": [
+              "Embeddings"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "embeddings",
+            "id": "CustomComponent-ofQAJ",
+            "inputTypes": [
+              "Embeddings"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__WatsonxEmbeddingsComponent-Nf6Pa{œdataTypeœ:œWatsonxEmbeddingsComponentœ,œidœ:œWatsonxEmbeddingsComponent-Nf6Paœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-CustomComponent-ofQAJ{œfieldNameœ:œembeddingsœ,œidœ:œCustomComponent-ofQAJœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "WatsonxEmbeddingsComponent-Nf6Pa",
+        "sourceHandle": "{œdataTypeœ:œWatsonxEmbeddingsComponentœ,œidœ:œWatsonxEmbeddingsComponent-Nf6Paœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
+        "target": "CustomComponent-ofQAJ",
+        "targetHandle": "{œfieldNameœ:œembeddingsœ,œidœ:œCustomComponent-ofQAJœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ChunkDoclingDocument",
+            "id": "ChunkDoclingDocument-XYHHq",
+            "name": "dataframe",
+            "output_types": [
+              "DataFrame"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "documents",
+            "id": "CustomComponent-ofQAJ",
+            "inputTypes": [
+              "Data",
+              "DataFrame"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__ChunkDoclingDocument-XYHHq{œdataTypeœ:œChunkDoclingDocumentœ,œidœ:œChunkDoclingDocument-XYHHqœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}-CustomComponent-ofQAJ{œfieldNameœ:œdocumentsœ,œidœ:œCustomComponent-ofQAJœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "ChunkDoclingDocument-XYHHq",
+        "sourceHandle": "{œdataTypeœ:œChunkDoclingDocumentœ,œidœ:œChunkDoclingDocument-XYHHqœ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}",
+        "target": "CustomComponent-ofQAJ",
+        "targetHandle": "{œfieldNameœ:œdocumentsœ,œidœ:œCustomComponent-ofQAJœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "IBMwatsonxModel",
+            "id": "IBMwatsonxModel-jsSU4",
+            "name": "model_output",
+            "output_types": [
+              "LanguageModel"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "pic_desc_llm",
+            "id": "DoclingInline-CSaVB",
+            "inputTypes": [
+              "LanguageModel"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__IBMwatsonxModel-jsSU4{œdataTypeœ:œIBMwatsonxModelœ,œidœ:œIBMwatsonxModel-jsSU4œ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-DoclingInline-CSaVB{œfieldNameœ:œpic_desc_llmœ,œidœ:œDoclingInline-CSaVBœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "IBMwatsonxModel-jsSU4",
+        "sourceHandle": "{œdataTypeœ:œIBMwatsonxModelœ,œidœ:œIBMwatsonxModel-jsSU4œ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
+        "target": "DoclingInline-CSaVB",
+        "targetHandle": "{œfieldNameœ:œpic_desc_llmœ,œidœ:œDoclingInline-CSaVBœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ChatInput",
+            "id": "ChatInput-v7A9c",
+            "name": "message",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "IBMwatsonxModel-jsSU4",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__ChatInput-v7A9c{œdataTypeœ:œChatInputœ,œidœ:œChatInput-v7A9cœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-IBMwatsonxModel-jsSU4{œfieldNameœ:œinput_valueœ,œidœ:œIBMwatsonxModel-jsSU4œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "ChatInput-v7A9c",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-v7A9cœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "IBMwatsonxModel-jsSU4",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œIBMwatsonxModel-jsSU4œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "CloudantIngestion",
+            "id": "CustomComponent-ofQAJ",
+            "name": "message",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "ChatOutput-UICsD",
+            "inputTypes": [
+              "Data",
+              "DataFrame",
+              "Message"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__CustomComponent-ofQAJ{œdataTypeœ:œCloudantIngestionœ,œidœ:œCustomComponent-ofQAJœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-UICsD{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-UICsDœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "CustomComponent-ofQAJ",
+        "sourceHandle": "{œdataTypeœ:œCloudantIngestionœ,œidœ:œCustomComponent-ofQAJœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ChatOutput-UICsD",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-UICsDœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
+      }
+    ],
+    "nodes": [
+      {
+        "data": {
+          "id": "ChunkDoclingDocument-XYHHq",
+          "node": {
+            "base_classes": [
+              "DataFrame"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Use the DocumentDocument chunkers to split the document into chunks.",
+            "display_name": "Chunk DoclingDocument",
+            "documentation": "https://docling-project.github.io/docling/concepts/chunking/",
+            "edited": false,
+            "field_order": [
+              "data_inputs",
+              "chunker",
+              "provider",
+              "hf_model_name",
+              "openai_model_name",
+              "max_tokens",
+              "doc_key"
+            ],
+            "frozen": false,
+            "icon": "Docling",
+            "last_updated": "2026-01-31T18:15:25.315Z",
+            "legacy": false,
+            "lf_version": "1.7.2",
+            "metadata": {
+              "code_hash": "d84ce7ffc6cb",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "tiktoken",
+                    "version": "0.12.0"
+                  },
+                  {
+                    "name": "docling_core",
+                    "version": "2.60.1"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": "0.2.1"
+                  }
+                ],
+                "total_dependencies": 3
+              },
+              "module": "lfx.components.docling.chunk_docling_document.ChunkDoclingDocumentComponent"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "DataFrame",
+                "group_outputs": false,
+                "loop_types": null,
+                "method": "chunk_documents",
+                "name": "dataframe",
+                "options": null,
+                "required_inputs": null,
+                "selected": "DataFrame",
+                "tool_mode": true,
+                "types": [
+                  "DataFrame"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_frontend_node_flow_id": {
+                "value": "8e432dbc-f877-4ac0-be03-f90cda239251"
+              },
+              "_frontend_node_folder_id": {
+                "value": "29cb05c3-5761-4146-af88-a42072bc7ac3"
+              },
+              "_type": "Component",
+              "chunker": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Chunker",
+                "dynamic": false,
+                "external_options": {},
+                "info": "Which chunker to use.",
+                "name": "chunker",
+                "options": [
+                  "HybridChunker",
+                  "HierarchicalChunker"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "HybridChunker"
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "import json\n\nimport tiktoken\nfrom docling_core.transforms.chunker import BaseChunker, DocMeta\nfrom docling_core.transforms.chunker.hierarchical_chunker import HierarchicalChunker\n\nfrom lfx.base.data.docling_utils import extract_docling_documents\nfrom lfx.custom import Component\nfrom lfx.io import DropdownInput, HandleInput, IntInput, MessageTextInput, Output, StrInput\nfrom lfx.schema import Data, DataFrame\n\n\nclass ChunkDoclingDocumentComponent(Component):\n    display_name: str = \"Chunk DoclingDocument\"\n    description: str = \"Use the DocumentDocument chunkers to split the document into chunks.\"\n    documentation = \"https://docling-project.github.io/docling/concepts/chunking/\"\n    icon = \"Docling\"\n    name = \"ChunkDoclingDocument\"\n\n    inputs = [\n        HandleInput(\n            name=\"data_inputs\",\n            display_name=\"Data or DataFrame\",\n            info=\"The data with documents to split in chunks.\",\n            input_types=[\"Data\", \"DataFrame\"],\n            required=True,\n        ),\n        DropdownInput(\n            name=\"chunker\",\n            display_name=\"Chunker\",\n            options=[\"HybridChunker\", \"HierarchicalChunker\"],\n            info=(\"Which chunker to use.\"),\n            value=\"HybridChunker\",\n            real_time_refresh=True,\n        ),\n        DropdownInput(\n            name=\"provider\",\n            display_name=\"Provider\",\n            options=[\"Hugging Face\", \"OpenAI\"],\n            info=(\"Which tokenizer provider.\"),\n            value=\"Hugging Face\",\n            show=True,\n            real_time_refresh=True,\n            advanced=True,\n            dynamic=True,\n        ),\n        StrInput(\n            name=\"hf_model_name\",\n            display_name=\"HF model name\",\n            info=(\n                \"Model name of the tokenizer to use with the HybridChunker when Hugging Face is chosen as a tokenizer.\"\n            ),\n            value=\"sentence-transformers/all-MiniLM-L6-v2\",\n            show=True,\n            advanced=True,\n            dynamic=True,\n        ),\n        StrInput(\n            name=\"openai_model_name\",\n            display_name=\"OpenAI model name\",\n            info=(\"Model name of the tokenizer to use with the HybridChunker when OpenAI is chosen as a tokenizer.\"),\n            value=\"gpt-4o\",\n            show=False,\n            advanced=True,\n            dynamic=True,\n        ),\n        IntInput(\n            name=\"max_tokens\",\n            display_name=\"Maximum tokens\",\n            info=(\"Maximum number of tokens for the HybridChunker.\"),\n            show=True,\n            required=False,\n            advanced=True,\n            dynamic=True,\n        ),\n        MessageTextInput(\n            name=\"doc_key\",\n            display_name=\"Doc Key\",\n            info=\"The key to use for the DoclingDocument column.\",\n            value=\"doc\",\n            advanced=True,\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"DataFrame\", name=\"dataframe\", method=\"chunk_documents\"),\n    ]\n\n    def update_build_config(self, build_config: dict, field_value: str, field_name: str | None = None) -> dict:\n        if field_name == \"chunker\":\n            provider_type = build_config[\"provider\"][\"value\"]\n            is_hf = provider_type == \"Hugging Face\"\n            is_openai = provider_type == \"OpenAI\"\n            if field_value == \"HybridChunker\":\n                build_config[\"provider\"][\"show\"] = True\n                build_config[\"hf_model_name\"][\"show\"] = is_hf\n                build_config[\"openai_model_name\"][\"show\"] = is_openai\n                build_config[\"max_tokens\"][\"show\"] = True\n            else:\n                build_config[\"provider\"][\"show\"] = False\n                build_config[\"hf_model_name\"][\"show\"] = False\n                build_config[\"openai_model_name\"][\"show\"] = False\n                build_config[\"max_tokens\"][\"show\"] = False\n        elif field_name == \"provider\" and build_config[\"chunker\"][\"value\"] == \"HybridChunker\":\n            if field_value == \"Hugging Face\":\n                build_config[\"hf_model_name\"][\"show\"] = True\n                build_config[\"openai_model_name\"][\"show\"] = False\n            elif field_value == \"OpenAI\":\n                build_config[\"hf_model_name\"][\"show\"] = False\n                build_config[\"openai_model_name\"][\"show\"] = True\n\n        return build_config\n\n    def _docs_to_data(self, docs) -> list[Data]:\n        return [Data(text=doc.page_content, data=doc.metadata) for doc in docs]\n\n    def chunk_documents(self) -> DataFrame:\n        documents, warning = extract_docling_documents(self.data_inputs, self.doc_key)\n        if warning:\n            self.status = warning\n\n        chunker: BaseChunker\n        if self.chunker == \"HybridChunker\":\n            try:\n                from docling_core.transforms.chunker.hybrid_chunker import HybridChunker\n            except ImportError as e:\n                msg = (\n                    \"HybridChunker is not installed. Please install it with `uv pip install docling-core[chunking] \"\n                    \"or `uv pip install transformers`\"\n                )\n                raise ImportError(msg) from e\n            max_tokens: int | None = self.max_tokens if self.max_tokens else None\n            if self.provider == \"Hugging Face\":\n                try:\n                    from docling_core.transforms.chunker.tokenizer.huggingface import HuggingFaceTokenizer\n                except ImportError as e:\n                    msg = (\n                        \"HuggingFaceTokenizer is not installed.\"\n                        \" Please install it with `uv pip install docling-core[chunking]`\"\n                    )\n                    raise ImportError(msg) from e\n                tokenizer = HuggingFaceTokenizer.from_pretrained(\n                    model_name=self.hf_model_name,\n                    max_tokens=max_tokens,\n                )\n            elif self.provider == \"OpenAI\":\n                try:\n                    from docling_core.transforms.chunker.tokenizer.openai import OpenAITokenizer\n                except ImportError as e:\n                    msg = (\n                        \"OpenAITokenizer is not installed.\"\n                        \" Please install it with `uv pip install docling-core[chunking]`\"\n                        \" or `uv pip install transformers`\"\n                    )\n                    raise ImportError(msg) from e\n                if max_tokens is None:\n                    max_tokens = 128 * 1024  # context window length required for OpenAI tokenizers\n                tokenizer = OpenAITokenizer(\n                    tokenizer=tiktoken.encoding_for_model(self.openai_model_name), max_tokens=max_tokens\n                )\n            chunker = HybridChunker(\n                tokenizer=tokenizer,\n            )\n        elif self.chunker == \"HierarchicalChunker\":\n            chunker = HierarchicalChunker()\n\n        results: list[Data] = []\n        try:\n            for doc in documents:\n                for chunk in chunker.chunk(dl_doc=doc):\n                    enriched_text = chunker.contextualize(chunk=chunk)\n                    meta = DocMeta.model_validate(chunk.meta)\n\n                    results.append(\n                        Data(\n                            data={\n                                \"text\": enriched_text,\n                                \"document_id\": f\"{doc.origin.binary_hash}\",\n                                \"doc_items\": json.dumps([item.self_ref for item in meta.doc_items]),\n                            }\n                        )\n                    )\n\n        except Exception as e:\n            msg = f\"Error splitting text: {e}\"\n            raise TypeError(msg) from e\n\n        return DataFrame(results)\n"
+              },
+              "data_inputs": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Data or DataFrame",
+                "dynamic": false,
+                "info": "The data with documents to split in chunks.",
+                "input_types": [
+                  "Data",
+                  "DataFrame"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "data_inputs",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "other",
+                "value": ""
+              },
+              "doc_key": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Doc Key",
+                "dynamic": false,
+                "info": "The key to use for the DoclingDocument column.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "doc_key",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "doc"
+              },
+              "hf_model_name": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "HF model name",
+                "dynamic": true,
+                "info": "Model name of the tokenizer to use with the HybridChunker when Hugging Face is chosen as a tokenizer.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "hf_model_name",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "sentence-transformers/all-MiniLM-L6-v2"
+              },
+              "is_refresh": false,
+              "max_tokens": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Maximum tokens",
+                "dynamic": true,
+                "info": "Maximum number of tokens for the HybridChunker.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_tokens",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": ""
+              },
+              "openai_model_name": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "OpenAI model name",
+                "dynamic": true,
+                "info": "Model name of the tokenizer to use with the HybridChunker when OpenAI is chosen as a tokenizer.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "openai_model_name",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": false,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "gpt-4o"
+              },
+              "provider": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Provider",
+                "dynamic": true,
+                "external_options": {},
+                "info": "Which tokenizer provider.",
+                "name": "provider",
+                "options": [
+                  "Hugging Face",
+                  "OpenAI"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "Hugging Face"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "ChunkDoclingDocument"
+        },
+        "dragging": false,
+        "id": "ChunkDoclingDocument-XYHHq",
+        "measured": {
+          "height": 263,
+          "width": 320
+        },
+        "position": {
+          "x": 635.8195374977079,
+          "y": 525.7182307505043
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "DoclingInline-CSaVB",
+          "node": {
+            "base_classes": [
+              "DataFrame"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Uses Docling to process input documents running the Docling models locally.",
+            "display_name": "Docling",
+            "documentation": "https://docling-project.github.io/docling/",
+            "edited": false,
+            "field_order": [
+              "path",
+              "file_path",
+              "separator",
+              "silent_errors",
+              "delete_server_file_after_processing",
+              "ignore_unsupported_extensions",
+              "ignore_unspecified_files",
+              "pipeline",
+              "ocr_engine",
+              "do_picture_classification",
+              "pic_desc_llm",
+              "pic_desc_prompt"
+            ],
+            "frozen": false,
+            "icon": "Docling",
+            "legacy": false,
+            "lf_version": "1.7.2",
+            "metadata": {
+              "code_hash": "d76b3853ceb4",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "lfx",
+                    "version": "0.2.1"
+                  },
+                  {
+                    "name": "docling",
+                    "version": "2.70.0"
+                  }
+                ],
+                "total_dependencies": 2
+              },
+              "module": "lfx.components.docling.docling_inline.DoclingInlineComponent"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Files",
+                "group_outputs": false,
+                "method": "load_files",
+                "name": "dataframe",
+                "selected": "DataFrame",
+                "tool_mode": true,
+                "types": [
+                  "DataFrame"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "import time\nfrom multiprocessing import Queue, get_context\nfrom queue import Empty\n\nfrom lfx.base.data import BaseFileComponent\nfrom lfx.base.data.docling_utils import _serialize_pydantic_model, docling_worker\nfrom lfx.inputs import BoolInput, DropdownInput, HandleInput, StrInput\nfrom lfx.schema import Data\n\n\nclass DoclingInlineComponent(BaseFileComponent):\n    display_name = \"Docling\"\n    description = \"Uses Docling to process input documents running the Docling models locally.\"\n    documentation = \"https://docling-project.github.io/docling/\"\n    trace_type = \"tool\"\n    icon = \"Docling\"\n    name = \"DoclingInline\"\n\n    # https://docling-project.github.io/docling/usage/supported_formats/\n    VALID_EXTENSIONS = [\n        \"adoc\",\n        \"asciidoc\",\n        \"asc\",\n        \"bmp\",\n        \"csv\",\n        \"dotx\",\n        \"dotm\",\n        \"docm\",\n        \"docx\",\n        \"htm\",\n        \"html\",\n        \"jpeg\",\n        \"json\",\n        \"md\",\n        \"pdf\",\n        \"png\",\n        \"potx\",\n        \"ppsx\",\n        \"pptm\",\n        \"potm\",\n        \"ppsm\",\n        \"pptx\",\n        \"tiff\",\n        \"txt\",\n        \"xls\",\n        \"xlsx\",\n        \"xhtml\",\n        \"xml\",\n        \"webp\",\n    ]\n\n    inputs = [\n        *BaseFileComponent.get_base_inputs(),\n        DropdownInput(\n            name=\"pipeline\",\n            display_name=\"Pipeline\",\n            info=\"Docling pipeline to use\",\n            options=[\"standard\", \"vlm\"],\n            value=\"standard\",\n        ),\n        DropdownInput(\n            name=\"ocr_engine\",\n            display_name=\"OCR Engine\",\n            info=\"OCR engine to use. None will disable OCR.\",\n            options=[\"None\", \"easyocr\", \"tesserocr\", \"rapidocr\", \"ocrmac\"],\n            value=\"None\",\n        ),\n        BoolInput(\n            name=\"do_picture_classification\",\n            display_name=\"Picture classification\",\n            info=\"If enabled, the Docling pipeline will classify the pictures type.\",\n            value=False,\n        ),\n        HandleInput(\n            name=\"pic_desc_llm\",\n            display_name=\"Picture description LLM\",\n            info=\"If connected, the model to use for running the picture description task.\",\n            input_types=[\"LanguageModel\"],\n            required=False,\n        ),\n        StrInput(\n            name=\"pic_desc_prompt\",\n            display_name=\"Picture description prompt\",\n            value=\"Describe the image in three sentences. Be concise and accurate.\",\n            info=\"The user prompt to use when invoking the model.\",\n            advanced=True,\n        ),\n        # TODO: expose more Docling options\n    ]\n\n    outputs = [\n        *BaseFileComponent.get_base_outputs(),\n    ]\n\n    def _wait_for_result_with_process_monitoring(self, queue: Queue, proc, timeout: int = 300):\n        \"\"\"Wait for result from queue while monitoring process health.\n\n        Handles cases where process crashes without sending result.\n        \"\"\"\n        start_time = time.time()\n\n        while time.time() - start_time < timeout:\n            # Check if process is still alive\n            if not proc.is_alive():\n                # Process died, try to get any result it might have sent\n                try:\n                    result = queue.get_nowait()\n                except Empty:\n                    # Process died without sending result\n                    msg = f\"Worker process crashed unexpectedly without producing result. Exit code: {proc.exitcode}\"\n                    raise RuntimeError(msg) from None\n                else:\n                    self.log(\"Process completed and result retrieved\")\n                    return result\n\n            # Poll the queue instead of blocking\n            try:\n                result = queue.get(timeout=1)\n            except Empty:\n                # No result yet, continue monitoring\n                continue\n            else:\n                self.log(\"Result received from worker process\")\n                return result\n\n        # Overall timeout reached\n        msg = f\"Process timed out after {timeout} seconds\"\n        raise TimeoutError(msg)\n\n    def _terminate_process_gracefully(self, proc, timeout_terminate: int = 10, timeout_kill: int = 5):\n        \"\"\"Terminate process gracefully with escalating signals.\n\n        First tries SIGTERM, then SIGKILL if needed.\n        \"\"\"\n        if not proc.is_alive():\n            return\n\n        self.log(\"Attempting graceful process termination with SIGTERM\")\n        proc.terminate()  # Send SIGTERM\n        proc.join(timeout=timeout_terminate)\n\n        if proc.is_alive():\n            self.log(\"Process didn't respond to SIGTERM, using SIGKILL\")\n            proc.kill()  # Send SIGKILL\n            proc.join(timeout=timeout_kill)\n\n            if proc.is_alive():\n                self.log(\"Warning: Process still alive after SIGKILL\")\n\n    def process_files(self, file_list: list[BaseFileComponent.BaseFile]) -> list[BaseFileComponent.BaseFile]:\n        try:\n            from docling.document_converter import DocumentConverter  # noqa: F401\n        except ImportError as e:\n            msg = (\n                \"Docling is an optional dependency. Install with `uv pip install 'langflow[docling]'` or refer to the \"\n                \"documentation on how to install optional dependencies.\"\n            )\n            raise ImportError(msg) from e\n\n        file_paths = [file.path for file in file_list if file.path]\n\n        if not file_paths:\n            self.log(\"No files to process.\")\n            return file_list\n\n        pic_desc_config: dict | None = None\n        if self.pic_desc_llm is not None:\n            pic_desc_config = _serialize_pydantic_model(self.pic_desc_llm)\n\n        ctx = get_context(\"spawn\")\n        queue: Queue = ctx.Queue()\n        proc = ctx.Process(\n            target=docling_worker,\n            kwargs={\n                \"file_paths\": file_paths,\n                \"queue\": queue,\n                \"pipeline\": self.pipeline,\n                \"ocr_engine\": self.ocr_engine,\n                \"do_picture_classification\": self.do_picture_classification,\n                \"pic_desc_config\": pic_desc_config,\n                \"pic_desc_prompt\": self.pic_desc_prompt,\n            },\n        )\n\n        result = None\n        proc.start()\n\n        try:\n            result = self._wait_for_result_with_process_monitoring(queue, proc, timeout=300)\n        except KeyboardInterrupt:\n            self.log(\"Docling process cancelled by user\")\n            result = []\n        except Exception as e:\n            self.log(f\"Error during processing: {e}\")\n            raise\n        finally:\n            # Improved cleanup with graceful termination\n            try:\n                self._terminate_process_gracefully(proc)\n            finally:\n                # Always close and cleanup queue resources\n                try:\n                    queue.close()\n                    queue.join_thread()\n                except Exception as e:  # noqa: BLE001\n                    # Ignore cleanup errors, but log them\n                    self.log(f\"Warning: Error during queue cleanup - {e}\")\n\n        # Enhanced error checking with dependency-specific handling\n        if isinstance(result, dict) and \"error\" in result:\n            error_msg = result[\"error\"]\n\n            # Handle dependency errors specifically\n            if result.get(\"error_type\") == \"dependency_error\":\n                dependency_name = result.get(\"dependency_name\", \"Unknown dependency\")\n                install_command = result.get(\"install_command\", \"Please check documentation\")\n\n                # Create a user-friendly error message\n                user_message = (\n                    f\"Missing OCR dependency: {dependency_name}. \"\n                    f\"{install_command} \"\n                    f\"Alternatively, you can set OCR Engine to 'None' to disable OCR processing.\"\n                )\n                raise ImportError(user_message)\n\n            # Handle other specific errors\n            if error_msg.startswith(\"Docling is not installed\"):\n                raise ImportError(error_msg)\n\n            # Handle graceful shutdown\n            if \"Worker interrupted by SIGINT\" in error_msg or \"shutdown\" in result:\n                self.log(\"Docling process cancelled by user\")\n                result = []\n            else:\n                raise RuntimeError(error_msg)\n\n        processed_data = [Data(data={\"doc\": r[\"document\"], \"file_path\": r[\"file_path\"]}) if r else None for r in result]\n        return self.rollup_data(file_list, processed_data)\n"
+              },
+              "delete_server_file_after_processing": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Delete Server File After Processing",
+                "dynamic": false,
+                "info": "If true, the Server File Path will be deleted after processing.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "delete_server_file_after_processing",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              },
+              "do_picture_classification": {
+                "_input_type": "BoolInput",
+                "advanced": false,
+                "display_name": "Picture classification",
+                "dynamic": false,
+                "info": "If enabled, the Docling pipeline will classify the pictures type.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "do_picture_classification",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": false
+              },
+              "file_path": {
+                "_input_type": "HandleInput",
+                "advanced": true,
+                "display_name": "Server File Path",
+                "dynamic": false,
+                "info": "Data object with a 'file_path' property pointing to server file or a Message object with a path to the file. Supercedes 'Path' but supports same file types.",
+                "input_types": [
+                  "Data",
+                  "Message"
+                ],
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "file_path",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "other",
+                "value": ""
+              },
+              "ignore_unspecified_files": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Ignore Unspecified Files",
+                "dynamic": false,
+                "info": "If true, Data with no 'file_path' property will be ignored.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "ignore_unspecified_files",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": false
+              },
+              "ignore_unsupported_extensions": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Ignore Unsupported Extensions",
+                "dynamic": false,
+                "info": "If true, files with unsupported extensions will not be processed.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "ignore_unsupported_extensions",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              },
+              "ocr_engine": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "OCR Engine",
+                "dynamic": false,
+                "external_options": {},
+                "info": "OCR engine to use. None will disable OCR.",
+                "name": "ocr_engine",
+                "options": [
+                  "None",
+                  "easyocr",
+                  "tesserocr",
+                  "rapidocr",
+                  "ocrmac"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "None"
+              },
+              "path": {
+                "_input_type": "FileInput",
+                "advanced": false,
+                "display_name": "Files",
+                "dynamic": false,
+                "fileTypes": [
+                  "adoc",
+                  "asciidoc",
+                  "asc",
+                  "bmp",
+                  "csv",
+                  "dotx",
+                  "dotm",
+                  "docm",
+                  "docx",
+                  "htm",
+                  "html",
+                  "jpeg",
+                  "json",
+                  "md",
+                  "pdf",
+                  "png",
+                  "potx",
+                  "ppsx",
+                  "pptm",
+                  "potm",
+                  "ppsm",
+                  "pptx",
+                  "tiff",
+                  "txt",
+                  "xls",
+                  "xlsx",
+                  "xhtml",
+                  "xml",
+                  "webp",
+                  "zip",
+                  "tar",
+                  "tgz",
+                  "bz2",
+                  "gz"
+                ],
+                "file_path": [
+                  "e5e94e07-fb80-440f-8ee5-016e7bfeab05/estimation-guide.md",
+                  "e5e94e07-fb80-440f-8ee5-016e7bfeab05/estimation-templates.md",
+                  "e5e94e07-fb80-440f-8ee5-016e7bfeab05/historical-data.md",
+                  "e5e94e07-fb80-440f-8ee5-016e7bfeab05/README (1).md"
+                ],
+                "info": "Supported file extensions: adoc, asciidoc, asc, bmp, csv, dotx, dotm, docm, docx, htm, html, jpeg, json, md, pdf, png, potx, ppsx, pptm, potm, ppsm, pptx, tiff, txt, xls, xlsx, xhtml, xml, webp; optionally bundled in file extensions: zip, tar, tgz, bz2, gz",
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "path",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "temp_file": false,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "file",
+                "value": ""
+              },
+              "pic_desc_llm": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Picture description LLM",
+                "dynamic": false,
+                "info": "If connected, the model to use for running the picture description task.",
+                "input_types": [
+                  "LanguageModel"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "pic_desc_llm",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "other",
+                "value": ""
+              },
+              "pic_desc_prompt": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "Picture description prompt",
+                "dynamic": false,
+                "info": "The user prompt to use when invoking the model.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "pic_desc_prompt",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "Describe the image in three sentences. Be concise and accurate."
+              },
+              "pipeline": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Pipeline",
+                "dynamic": false,
+                "external_options": {},
+                "info": "Docling pipeline to use",
+                "name": "pipeline",
+                "options": [
+                  "standard",
+                  "vlm"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "standard"
+              },
+              "separator": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "Separator",
+                "dynamic": false,
+                "info": "Specify the separator to use between multiple outputs in Message format.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "separator",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "\n\n"
+              },
+              "silent_errors": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Silent Errors",
+                "dynamic": false,
+                "info": "If true, errors will not raise an exception.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "silent_errors",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": false
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "DoclingInline"
+        },
+        "dragging": false,
+        "id": "DoclingInline-CSaVB",
+        "measured": {
+          "height": 615,
+          "width": 320
+        },
+        "position": {
+          "x": 177.6657528158812,
+          "y": 80.69390093847429
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "WatsonxEmbeddingsComponent-Nf6Pa",
+          "node": {
+            "base_classes": [
+              "Embeddings"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Generate embeddings using IBM watsonx.ai models.",
+            "display_name": "IBM watsonx.ai Embeddings",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "url",
+              "project_id",
+              "api_key",
+              "model_name",
+              "truncate_input_tokens",
+              "input_text"
+            ],
+            "frozen": false,
+            "icon": "WatsonxAI",
+            "last_updated": "2026-01-31T18:01:55.235Z",
+            "legacy": false,
+            "lf_version": "1.7.2",
+            "metadata": {
+              "code_hash": "ffded413ea90",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "requests",
+                    "version": "2.32.5"
+                  },
+                  {
+                    "name": "ibm_watsonx_ai",
+                    "version": "1.5.1"
+                  },
+                  {
+                    "name": "langchain_ibm",
+                    "version": "0.3.20"
+                  },
+                  {
+                    "name": "pydantic",
+                    "version": "2.11.10"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": "0.2.1"
+                  }
+                ],
+                "total_dependencies": 5
+              },
+              "module": "lfx.components.ibm.watsonx_embeddings.WatsonxEmbeddingsComponent"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Embedding Model",
+                "group_outputs": false,
+                "loop_types": null,
+                "method": "build_embeddings",
+                "name": "embeddings",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Embeddings",
+                "tool_mode": true,
+                "types": [
+                  "Embeddings"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_frontend_node_flow_id": {
+                "value": "8e432dbc-f877-4ac0-be03-f90cda239251"
+              },
+              "_frontend_node_folder_id": {
+                "value": "29cb05c3-5761-4146-af88-a42072bc7ac3"
+              },
+              "_type": "Component",
+              "api_key": {
+                "_input_type": "SecretStrInput",
+                "advanced": false,
+                "display_name": "Watsonx API Key",
+                "dynamic": false,
+                "info": "The API Key to use for the model.",
+                "input_types": [],
+                "load_from_db": false,
+                "name": "api_key",
+                "override_skip": false,
+                "password": true,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from typing import Any\n\nimport requests\nfrom ibm_watsonx_ai import APIClient, Credentials\nfrom ibm_watsonx_ai.metanames import EmbedTextParamsMetaNames\nfrom langchain_ibm import WatsonxEmbeddings\nfrom pydantic.v1 import SecretStr\n\nfrom lfx.base.embeddings.model import LCEmbeddingsModel\nfrom lfx.field_typing import Embeddings\nfrom lfx.io import BoolInput, DropdownInput, IntInput, SecretStrInput, StrInput\nfrom lfx.log.logger import logger\nfrom lfx.schema.dotdict import dotdict\n\n\nclass WatsonxEmbeddingsComponent(LCEmbeddingsModel):\n    display_name = \"IBM watsonx.ai Embeddings\"\n    description = \"Generate embeddings using IBM watsonx.ai models.\"\n    icon = \"WatsonxAI\"\n    name = \"WatsonxEmbeddingsComponent\"\n\n    # models present in all the regions\n    _default_models = [\n        \"sentence-transformers/all-minilm-l12-v2\",\n        \"ibm/slate-125m-english-rtrvr-v2\",\n        \"ibm/slate-30m-english-rtrvr-v2\",\n        \"intfloat/multilingual-e5-large\",\n    ]\n\n    inputs = [\n        DropdownInput(\n            name=\"url\",\n            display_name=\"watsonx API Endpoint\",\n            info=\"The base URL of the API.\",\n            value=None,\n            options=[\n                \"https://us-south.ml.cloud.ibm.com\",\n                \"https://eu-de.ml.cloud.ibm.com\",\n                \"https://eu-gb.ml.cloud.ibm.com\",\n                \"https://au-syd.ml.cloud.ibm.com\",\n                \"https://jp-tok.ml.cloud.ibm.com\",\n                \"https://ca-tor.ml.cloud.ibm.com\",\n            ],\n            real_time_refresh=True,\n        ),\n        StrInput(\n            name=\"project_id\",\n            display_name=\"watsonx project id\",\n            info=\"The project ID or deployment space ID that is associated with the foundation model.\",\n            required=True,\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"Watsonx API Key\",\n            info=\"The API Key to use for the model.\",\n            required=True,\n        ),\n        DropdownInput(\n            name=\"model_name\",\n            display_name=\"Model Name\",\n            options=[],\n            value=None,\n            dynamic=True,\n            required=True,\n        ),\n        IntInput(\n            name=\"truncate_input_tokens\",\n            display_name=\"Truncate Input Tokens\",\n            advanced=True,\n            value=200,\n        ),\n        BoolInput(\n            name=\"input_text\",\n            display_name=\"Include the original text in the output\",\n            value=True,\n            advanced=True,\n        ),\n    ]\n\n    @staticmethod\n    def fetch_models(base_url: str) -> list[str]:\n        \"\"\"Fetch available models from the watsonx.ai API.\"\"\"\n        try:\n            endpoint = f\"{base_url}/ml/v1/foundation_model_specs\"\n            params = {\n                \"version\": \"2024-09-16\",\n                \"filters\": \"function_embedding,!lifecycle_withdrawn:and\",\n            }\n            response = requests.get(endpoint, params=params, timeout=10)\n            response.raise_for_status()\n            data = response.json()\n            models = [model[\"model_id\"] for model in data.get(\"resources\", [])]\n            return sorted(models)\n        except Exception:  # noqa: BLE001\n            logger.exception(\"Error fetching models\")\n            return WatsonxEmbeddingsComponent._default_models\n\n    def update_build_config(self, build_config: dotdict, field_value: Any, field_name: str | None = None):\n        \"\"\"Update model options when URL or API key changes.\"\"\"\n        logger.debug(\n            \"Updating build config. Field name: %s, Field value: %s\",\n            field_name,\n            field_value,\n        )\n\n        if field_name == \"url\" and field_value:\n            try:\n                models = self.fetch_models(base_url=build_config.url.value)\n                build_config.model_name.options = models\n                if build_config.model_name.value:\n                    build_config.model_name.value = models[0]\n                info_message = f\"Updated model options: {len(models)} models found in {build_config.url.value}\"\n                logger.info(info_message)\n            except Exception:  # noqa: BLE001\n                logger.exception(\"Error updating model options.\")\n\n    def build_embeddings(self) -> Embeddings:\n        credentials = Credentials(\n            api_key=SecretStr(self.api_key).get_secret_value(),\n            url=self.url,\n        )\n\n        api_client = APIClient(credentials)\n\n        params = {\n            EmbedTextParamsMetaNames.TRUNCATE_INPUT_TOKENS: self.truncate_input_tokens,\n            EmbedTextParamsMetaNames.RETURN_OPTIONS: {\"input_text\": self.input_text},\n        }\n\n        return WatsonxEmbeddings(\n            model_id=self.model_name,\n            params=params,\n            watsonx_client=api_client,\n            project_id=self.project_id,\n        )\n"
+              },
+              "input_text": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Include the original text in the output",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "input_text",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              },
+              "is_refresh": false,
+              "model_name": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Model Name",
+                "dynamic": true,
+                "external_options": {},
+                "info": "",
+                "name": "model_name",
+                "options": [
+                  "ibm/granite-embedding-278m-multilingual",
+                  "ibm/slate-125m-english-rtrvr-v2",
+                  "ibm/slate-30m-english-rtrvr-v2",
+                  "intfloat/multilingual-e5-large",
+                  "sentence-transformers/all-minilm-l6-v2"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "ibm/granite-embedding-278m-multilingual"
+              },
+              "project_id": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "watsonx project id",
+                "dynamic": false,
+                "info": "The project ID or deployment space ID that is associated with the foundation model.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "project_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "91146e4b-59e0-4c04-a826-2731457dd287"
+              },
+              "truncate_input_tokens": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Truncate Input Tokens",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "truncate_input_tokens",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 200
+              },
+              "url": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "watsonx API Endpoint",
+                "dynamic": false,
+                "external_options": {},
+                "info": "The base URL of the API.",
+                "name": "url",
+                "options": [
+                  "https://us-south.ml.cloud.ibm.com",
+                  "https://eu-de.ml.cloud.ibm.com",
+                  "https://eu-gb.ml.cloud.ibm.com",
+                  "https://au-syd.ml.cloud.ibm.com",
+                  "https://jp-tok.ml.cloud.ibm.com",
+                  "https://ca-tor.ml.cloud.ibm.com"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "https://us-south.ml.cloud.ibm.com"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "WatsonxEmbeddingsComponent"
+        },
+        "dragging": false,
+        "id": "WatsonxEmbeddingsComponent-Nf6Pa",
+        "measured": {
+          "height": 449,
+          "width": 320
+        },
+        "position": {
+          "x": 605.7480225334679,
+          "y": -70.74717470887583
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "CustomComponent-ofQAJ",
+          "node": {
+            "base_classes": [
+              "Data",
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Ingest documents with embeddings into IBM Cloudant. Accepts DataFrame from Docling Chunker.",
+            "display_name": "Cloudant Ingestion",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "api_key",
+              "cloudant_url",
+              "database_name",
+              "knowledge_base",
+              "technology",
+              "documents",
+              "embeddings"
+            ],
+            "frozen": false,
+            "icon": "upload",
+            "legacy": false,
+            "lf_version": "1.7.2",
+            "metadata": {
+              "code_hash": "8aaad7b95f8c",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "langflow",
+                    "version": "1.7.2"
+                  },
+                  {
+                    "name": "ibmcloudant",
+                    "version": null
+                  },
+                  {
+                    "name": "ibm_cloud_sdk_core",
+                    "version": null
+                  }
+                ],
+                "total_dependencies": 3
+              },
+              "module": "custom_components.cloudant_ingestion"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Status",
+                "group_outputs": false,
+                "hidden": null,
+                "loop_types": null,
+                "method": "ingest_documents",
+                "name": "status",
+                "options": null,
+                "required_inputs": null,
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Message",
+                "group_outputs": false,
+                "hidden": null,
+                "loop_types": null,
+                "method": "ingest_documents_message",
+                "name": "message",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "api_key": {
+                "_input_type": "SecretStrInput",
+                "advanced": false,
+                "display_name": "Cloudant API Key",
+                "dynamic": false,
+                "info": "IBM Cloud API key for Cloudant",
+                "input_types": [],
+                "load_from_db": false,
+                "name": "api_key",
+                "override_skip": false,
+                "password": true,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "cloudant_url": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Cloudant URL",
+                "dynamic": false,
+                "info": "Cloudant service URL",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "cloudant_url",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "https://ca763f69-3406-46cf-93aa-c578ecd6e9f6-bluemix.cloudantnosqldb.appdomain.cloud"
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "\"\"\"\r\nCloudant Document Ingestion Component for Langflow\r\nIngests documents with embeddings into Cloudant\r\nAccepts DataFrame output from Docling Chunker\r\n\"\"\"\r\n\r\nfrom langflow.custom import Component\r\nfrom langflow.io import MessageTextInput, SecretStrInput, Output, HandleInput\r\nfrom langflow.schema import Data, DataFrame, Message\r\nfrom ibmcloudant.cloudant_v1 import CloudantV1, Document\r\nfrom ibm_cloud_sdk_core.authenticators import IAMAuthenticator\r\nimport hashlib\r\nimport json\r\nfrom typing import List, Union\r\n\r\n\r\nclass CloudantIngestionComponent(Component):\r\n    display_name = \"Cloudant Ingestion\"\r\n    description = \"Ingest documents with embeddings into IBM Cloudant. Accepts DataFrame from Docling Chunker.\"\r\n    icon = \"upload\"\r\n    name = \"CloudantIngestion\"\r\n\r\n    inputs = [\r\n        SecretStrInput(\r\n            name=\"api_key\",\r\n            display_name=\"Cloudant API Key\",\r\n            required=True,\r\n            info=\"IBM Cloud API key for Cloudant\"\r\n        ),\r\n        MessageTextInput(\r\n            name=\"cloudant_url\",\r\n            display_name=\"Cloudant URL\",\r\n            required=True,\r\n            info=\"Cloudant service URL\"\r\n        ),\r\n        MessageTextInput(\r\n            name=\"database_name\",\r\n            display_name=\"Database Name\",\r\n            value=\"rag_vectors\",\r\n            required=True\r\n        ),\r\n        MessageTextInput(\r\n            name=\"knowledge_base\",\r\n            display_name=\"Knowledge Base\",\r\n            value=\"code\",\r\n            info=\"Knowledge base name (code, estimation, enhancement)\"\r\n        ),\r\n        MessageTextInput(\r\n            name=\"technology\",\r\n            display_name=\"Technology\",\r\n            value=\"springboot\",\r\n            info=\"Technology stack\"\r\n        ),\r\n        HandleInput(\r\n            name=\"documents\",\r\n            display_name=\"Documents\",\r\n            input_types=[\"Data\", \"DataFrame\"],\r\n            is_list=True,\r\n            info=\"Documents to ingest (DataFrame from Docling Chunker or list of Data)\"\r\n        ),\r\n        HandleInput(\r\n            name=\"embeddings\",\r\n            display_name=\"Embeddings\",\r\n            input_types=[\"Embeddings\"],\r\n            info=\"Embedding model to use\"\r\n        ),\r\n    ]\r\n\r\n    outputs = [\r\n        Output(display_name=\"Status\", name=\"status\", method=\"ingest_documents\"),\r\n        Output(display_name=\"Message\", name=\"message\", method=\"ingest_documents_message\"),\r\n    ]\r\n\r\n    def _get_client(self) -> CloudantV1:\r\n        \"\"\"Initialize Cloudant client\"\"\"\r\n        authenticator = IAMAuthenticator(self.api_key)\r\n        client = CloudantV1(authenticator=authenticator)\r\n        client.set_service_url(self.cloudant_url)\r\n        return client\r\n\r\n    def _ensure_database(self, client: CloudantV1):\r\n        \"\"\"Ensure database exists\"\"\"\r\n        try:\r\n            client.get_database_information(db=self.database_name)\r\n        except Exception:\r\n            client.put_database(db=self.database_name)\r\n            # Create index for efficient queries\r\n            client.post_index(\r\n                db=self.database_name,\r\n                index={\"fields\": [\"knowledge_base\", \"technology\"]},\r\n                name=\"kb-tech-index\",\r\n                type=\"json\"\r\n            )\r\n\r\n    def _generate_doc_id(self, content: str, document_id: str = \"\") -> str:\r\n        \"\"\"Generate unique document ID based on content hash\"\"\"\r\n        combined = f\"{document_id}:{content}\" if document_id else content\r\n        return hashlib.sha256(combined.encode()).hexdigest()[:32]\r\n\r\n    def _extract_documents_from_input(self, input_data) -> List[dict]:\r\n        \"\"\"Extract document data from various input types (DataFrame, Data, list)\"\"\"\r\n        documents = []\r\n        \r\n        # Handle DataFrame from Docling Chunker\r\n        if isinstance(input_data, DataFrame):\r\n            for item in input_data:\r\n                if isinstance(item, Data):\r\n                    documents.append(self._extract_from_data(item))\r\n                else:\r\n                    documents.append({\"text\": str(item), \"metadata\": {}})\r\n        # Handle list of items\r\n        elif isinstance(input_data, list):\r\n            for item in input_data:\r\n                if isinstance(item, DataFrame):\r\n                    documents.extend(self._extract_documents_from_input(item))\r\n                elif isinstance(item, Data):\r\n                    documents.append(self._extract_from_data(item))\r\n                else:\r\n                    documents.append({\"text\": str(item), \"metadata\": {}})\r\n        # Handle single Data object\r\n        elif isinstance(input_data, Data):\r\n            documents.append(self._extract_from_data(input_data))\r\n        else:\r\n            documents.append({\"text\": str(input_data), \"metadata\": {}})\r\n        \r\n        return documents\r\n\r\n    def _extract_from_data(self, data: Data) -> dict:\r\n        \"\"\"Extract text and metadata from a Data object (Docling Chunker format)\"\"\"\r\n        if hasattr(data, 'data') and isinstance(data.data, dict):\r\n            # Docling Chunker format: {\"text\": ..., \"document_id\": ..., \"doc_items\": ...}\r\n            text = data.data.get(\"text\", \"\")\r\n            document_id = data.data.get(\"document_id\", \"\")\r\n            doc_items = data.data.get(\"doc_items\", \"\")\r\n            \r\n            metadata = {\r\n                \"document_id\": document_id,\r\n                \"doc_items\": doc_items\r\n            }\r\n            \r\n            # Also check for other common fields\r\n            for key in [\"source\", \"page\", \"chunk_index\"]:\r\n                if key in data.data:\r\n                    metadata[key] = data.data[key]\r\n            \r\n            return {\"text\": text, \"document_id\": document_id, \"metadata\": metadata}\r\n        elif hasattr(data, 'text'):\r\n            return {\"text\": data.text, \"metadata\": {}}\r\n        else:\r\n            return {\"text\": str(data), \"metadata\": {}}\r\n\r\n    def ingest_documents(self) -> Data:\r\n        \"\"\"Ingest documents into Cloudant with embeddings\"\"\"\r\n        client = self._get_client()\r\n        self._ensure_database(client)\r\n        \r\n        # Extract documents from input (handles DataFrame, Data, list)\r\n        documents = self._extract_documents_from_input(self.documents)\r\n        embedding_model = self.embeddings\r\n        \r\n        ingested_count = 0\r\n        errors = []\r\n        \r\n        for doc_info in documents:\r\n            try:\r\n                content = doc_info.get(\"text\", \"\")\r\n                document_id = doc_info.get(\"document_id\", \"\")\r\n                metadata = doc_info.get(\"metadata\", {})\r\n                \r\n                if not content or not content.strip():\r\n                    continue  # Skip empty documents\r\n                \r\n                # Generate embedding\r\n                embedding = embedding_model.embed_query(content)\r\n                \r\n                # Create Cloudant document ID\r\n                doc_id = self._generate_doc_id(content, document_id)\r\n                \r\n                # Build document as dictionary for Cloudant\r\n                cloudant_doc = {\r\n                    \"_id\": doc_id,\r\n                    \"content\": content,\r\n                    \"embedding\": embedding,\r\n                    \"knowledge_base\": self.knowledge_base,\r\n                    \"technology\": self.technology,\r\n                    \"metadata\": metadata,\r\n                    \"document_id\": document_id\r\n                }\r\n                \r\n                # Upsert document\r\n                try:\r\n                    # Check if exists\r\n                    existing = client.get_document(db=self.database_name, doc_id=doc_id).get_result()\r\n                    cloudant_doc[\"_rev\"] = existing.get(\"_rev\")\r\n                except Exception:\r\n                    pass  # Document doesn't exist, will create new\r\n                \r\n                client.post_document(db=self.database_name, document=cloudant_doc)\r\n                ingested_count += 1\r\n                \r\n            except Exception as e:\r\n                errors.append(str(e))\r\n        \r\n        self.status = f\"Ingested {ingested_count}/{len(documents)} documents into {self.database_name}\"\r\n        \r\n        # Store results for message output\r\n        self._ingestion_result = {\r\n            \"status\": \"completed\",\r\n            \"ingested\": ingested_count,\r\n            \"total\": len(documents),\r\n            \"errors\": errors if errors else None,\r\n            \"database\": self.database_name,\r\n            \"knowledge_base\": self.knowledge_base,\r\n            \"technology\": self.technology\r\n        }\r\n        \r\n        return Data(data=self._ingestion_result)\r\n\r\n    def ingest_documents_message(self) -> Message:\r\n        \"\"\"Return ingestion status as Message for Chat Output\"\"\"\r\n        # Run ingestion if not already done\r\n        if not hasattr(self, '_ingestion_result'):\r\n            self.ingest_documents()\r\n        \r\n        result = self._ingestion_result\r\n        \r\n        # Format as readable message\r\n        status_text = f\"\"\"✅ **Ingestion Complete**\r\n\r\n**Database:** {result['database']}\r\n**Knowledge Base:** {result['knowledge_base']}\r\n**Technology:** {result['technology']}\r\n\r\n**Documents Ingested:** {result['ingested']} / {result['total']}\r\n\"\"\"\r\n        \r\n        if result.get('errors'):\r\n            status_text += f\"\\n⚠️ **Errors:** {len(result['errors'])}\\n\"\r\n            for err in result['errors'][:5]:  # Show first 5 errors\r\n                status_text += f\"  - {err}\\n\"\r\n        \r\n        return Message(text=status_text)\r\n"
+              },
+              "database_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Database Name",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "database_name",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "rag_vectors_springboot_estimation"
+              },
+              "documents": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Documents",
+                "dynamic": false,
+                "info": "Documents to ingest (DataFrame from Docling Chunker or list of Data)",
+                "input_types": [
+                  "Data",
+                  "DataFrame"
+                ],
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "documents",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "other",
+                "value": ""
+              },
+              "embeddings": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Embeddings",
+                "dynamic": false,
+                "info": "Embedding model to use",
+                "input_types": [
+                  "Embeddings"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "embeddings",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "other",
+                "value": ""
+              },
+              "knowledge_base": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Knowledge Base",
+                "dynamic": false,
+                "info": "Knowledge base name (code, estimation, enhancement)",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "knowledge_base",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "code"
+              },
+              "technology": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Technology",
+                "dynamic": false,
+                "info": "Technology stack",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "technology",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "springboot"
+              }
+            },
+            "tool_mode": false
+          },
+          "selected_output": "message",
+          "showNode": true,
+          "type": "CloudantIngestion"
+        },
+        "dragging": false,
+        "id": "CustomComponent-ofQAJ",
+        "measured": {
+          "height": 635,
+          "width": 320
+        },
+        "position": {
+          "x": 1027.3532190995782,
+          "y": 154.11656707317073
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "ChatInput-v7A9c",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Get chat inputs from the Playground.",
+            "display_name": "Chat Input",
+            "documentation": "https://docs.langflow.org/chat-input-and-output",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "should_store_message",
+              "sender",
+              "sender_name",
+              "session_id",
+              "context_id",
+              "files"
+            ],
+            "frozen": false,
+            "icon": "MessagesSquare",
+            "legacy": false,
+            "lf_version": "1.7.2",
+            "metadata": {
+              "code_hash": "7a26c54d89ed",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "lfx",
+                    "version": "0.2.1"
+                  }
+                ],
+                "total_dependencies": 1
+              },
+              "module": "lfx.components.input_output.chat.ChatInput"
+            },
+            "minimized": true,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Chat Message",
+                "group_outputs": false,
+                "method": "message_response",
+                "name": "message",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from lfx.base.data.utils import IMG_FILE_TYPES, TEXT_FILE_TYPES\nfrom lfx.base.io.chat import ChatComponent\nfrom lfx.inputs.inputs import BoolInput\nfrom lfx.io import (\n    DropdownInput,\n    FileInput,\n    MessageTextInput,\n    MultilineInput,\n    Output,\n)\nfrom lfx.schema.message import Message\nfrom lfx.utils.constants import (\n    MESSAGE_SENDER_AI,\n    MESSAGE_SENDER_NAME_USER,\n    MESSAGE_SENDER_USER,\n)\n\n\nclass ChatInput(ChatComponent):\n    display_name = \"Chat Input\"\n    description = \"Get chat inputs from the Playground.\"\n    documentation: str = \"https://docs.langflow.org/chat-input-and-output\"\n    icon = \"MessagesSquare\"\n    name = \"ChatInput\"\n    minimized = True\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Input Text\",\n            value=\"\",\n            info=\"Message to be passed as input.\",\n            input_types=[],\n        ),\n        BoolInput(\n            name=\"should_store_message\",\n            display_name=\"Store Messages\",\n            info=\"Store the message in the history.\",\n            value=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"sender\",\n            display_name=\"Sender Type\",\n            options=[MESSAGE_SENDER_AI, MESSAGE_SENDER_USER],\n            value=MESSAGE_SENDER_USER,\n            info=\"Type of sender.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"sender_name\",\n            display_name=\"Sender Name\",\n            info=\"Name of the sender.\",\n            value=MESSAGE_SENDER_NAME_USER,\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"session_id\",\n            display_name=\"Session ID\",\n            info=\"The session ID of the chat. If empty, the current session ID parameter will be used.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"context_id\",\n            display_name=\"Context ID\",\n            info=\"The context ID of the chat. Adds an extra layer to the local memory.\",\n            value=\"\",\n            advanced=True,\n        ),\n        FileInput(\n            name=\"files\",\n            display_name=\"Files\",\n            file_types=TEXT_FILE_TYPES + IMG_FILE_TYPES,\n            info=\"Files to be sent with the message.\",\n            advanced=True,\n            is_list=True,\n            temp_file=True,\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Chat Message\", name=\"message\", method=\"message_response\"),\n    ]\n\n    async def message_response(self) -> Message:\n        # Ensure files is a list and filter out empty/None values\n        files = self.files if self.files else []\n        if files and not isinstance(files, list):\n            files = [files]\n        # Filter out None/empty values\n        files = [f for f in files if f is not None and f != \"\"]\n\n        session_id = self.session_id or self.graph.session_id or \"\"\n        message = await Message.create(\n            text=self.input_value,\n            sender=self.sender,\n            sender_name=self.sender_name,\n            session_id=session_id,\n            context_id=self.context_id,\n            files=files,\n        )\n        if session_id and isinstance(message, Message) and self.should_store_message:\n            stored_message = await self.send_message(\n                message,\n            )\n            self.message.value = stored_message\n            message = stored_message\n\n        self.status = message\n        return message\n"
+              },
+              "context_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Context ID",
+                "dynamic": false,
+                "info": "The context ID of the chat. Adds an extra layer to the local memory.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "context_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "files": {
+                "_input_type": "FileInput",
+                "advanced": true,
+                "display_name": "Files",
+                "dynamic": false,
+                "fileTypes": [
+                  "csv",
+                  "json",
+                  "pdf",
+                  "txt",
+                  "md",
+                  "mdx",
+                  "yaml",
+                  "yml",
+                  "xml",
+                  "html",
+                  "htm",
+                  "docx",
+                  "py",
+                  "sh",
+                  "sql",
+                  "js",
+                  "ts",
+                  "tsx",
+                  "jpg",
+                  "jpeg",
+                  "png",
+                  "bmp",
+                  "image"
+                ],
+                "file_path": "",
+                "info": "Files to be sent with the message.",
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "files",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "temp_file": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "file",
+                "value": ""
+              },
+              "input_value": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "ai_enabled": false,
+                "copy_field": false,
+                "display_name": "Input Text",
+                "dynamic": false,
+                "info": "Message to be passed as input.",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input_value",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "sender": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Sender Type",
+                "dynamic": false,
+                "external_options": {},
+                "info": "Type of sender.",
+                "name": "sender",
+                "options": [
+                  "Machine",
+                  "User"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "User"
+              },
+              "sender_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Sender Name",
+                "dynamic": false,
+                "info": "Name of the sender.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "sender_name",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "User"
+              },
+              "session_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Session ID",
+                "dynamic": false,
+                "info": "The session ID of the chat. If empty, the current session ID parameter will be used.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "session_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "should_store_message": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Store Messages",
+                "dynamic": false,
+                "info": "Store the message in the history.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "should_store_message",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": false,
+          "type": "ChatInput"
+        },
+        "dragging": false,
+        "id": "ChatInput-v7A9c",
+        "measured": {
+          "height": 48,
+          "width": 192
+        },
+        "position": {
+          "x": -471.35500648238354,
+          "y": 14.093085937098877
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "IBMwatsonxModel-jsSU4",
+          "node": {
+            "base_classes": [
+              "LanguageModel",
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Generate text using IBM watsonx.ai foundation models.",
+            "display_name": "IBM watsonx.ai",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "system_message",
+              "stream",
+              "base_url",
+              "project_id",
+              "api_key",
+              "model_name",
+              "max_tokens",
+              "stop_sequence",
+              "temperature",
+              "top_p",
+              "frequency_penalty",
+              "presence_penalty",
+              "seed",
+              "logprobs",
+              "top_logprobs",
+              "logit_bias"
+            ],
+            "frozen": false,
+            "icon": "WatsonxAI",
+            "last_updated": "2026-01-31T18:55:32.201Z",
+            "legacy": false,
+            "lf_version": "1.7.2",
+            "metadata": {
+              "code_hash": "769869108e5e",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "requests",
+                    "version": "2.32.5"
+                  },
+                  {
+                    "name": "langchain_ibm",
+                    "version": "0.3.20"
+                  },
+                  {
+                    "name": "pydantic",
+                    "version": "2.11.10"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": "0.2.1"
+                  }
+                ],
+                "total_dependencies": 4
+              },
+              "keywords": [
+                "model",
+                "llm",
+                "language model",
+                "large language model"
+              ],
+              "module": "lfx.components.ibm.watsonx.WatsonxAIComponent"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Model Response",
+                "group_outputs": false,
+                "loop_types": null,
+                "method": "text_response",
+                "name": "text_output",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Language Model",
+                "group_outputs": false,
+                "loop_types": null,
+                "method": "build_model",
+                "name": "model_output",
+                "options": null,
+                "required_inputs": null,
+                "selected": "LanguageModel",
+                "tool_mode": true,
+                "types": [
+                  "LanguageModel"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_frontend_node_flow_id": {
+                "value": "8e432dbc-f877-4ac0-be03-f90cda239251"
+              },
+              "_frontend_node_folder_id": {
+                "value": "29cb05c3-5761-4146-af88-a42072bc7ac3"
+              },
+              "_type": "Component",
+              "api_key": {
+                "_input_type": "SecretStrInput",
+                "advanced": false,
+                "display_name": "Watsonx API Key",
+                "dynamic": false,
+                "info": "The API Key to use for the model.",
+                "input_types": [],
+                "load_from_db": false,
+                "name": "api_key",
+                "override_skip": false,
+                "password": true,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "base_url": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "watsonx API Endpoint",
+                "dynamic": false,
+                "external_options": {},
+                "info": "The base URL of the API.",
+                "name": "base_url",
+                "options": [
+                  "https://us-south.ml.cloud.ibm.com",
+                  "https://eu-de.ml.cloud.ibm.com",
+                  "https://eu-gb.ml.cloud.ibm.com",
+                  "https://au-syd.ml.cloud.ibm.com",
+                  "https://jp-tok.ml.cloud.ibm.com",
+                  "https://ca-tor.ml.cloud.ibm.com"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "https://us-south.ml.cloud.ibm.com"
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "import json\nfrom typing import Any\n\nimport requests\nfrom langchain_ibm import ChatWatsonx\nfrom pydantic.v1 import SecretStr\n\nfrom lfx.base.models.model import LCModelComponent\nfrom lfx.field_typing import LanguageModel\nfrom lfx.field_typing.range_spec import RangeSpec\nfrom lfx.inputs.inputs import BoolInput, DropdownInput, IntInput, SecretStrInput, SliderInput, StrInput\nfrom lfx.log.logger import logger\nfrom lfx.schema.dotdict import dotdict\n\n\nclass WatsonxAIComponent(LCModelComponent):\n    display_name = \"IBM watsonx.ai\"\n    description = \"Generate text using IBM watsonx.ai foundation models.\"\n    icon = \"WatsonxAI\"\n    name = \"IBMwatsonxModel\"\n    beta = False\n\n    _default_models = [\"ibm/granite-3-2b-instruct\", \"ibm/granite-3-8b-instruct\", \"ibm/granite-13b-instruct-v2\"]\n    _urls = [\n        \"https://us-south.ml.cloud.ibm.com\",\n        \"https://eu-de.ml.cloud.ibm.com\",\n        \"https://eu-gb.ml.cloud.ibm.com\",\n        \"https://au-syd.ml.cloud.ibm.com\",\n        \"https://jp-tok.ml.cloud.ibm.com\",\n        \"https://ca-tor.ml.cloud.ibm.com\",\n    ]\n    inputs = [\n        *LCModelComponent.get_base_inputs(),\n        DropdownInput(\n            name=\"base_url\",\n            display_name=\"watsonx API Endpoint\",\n            info=\"The base URL of the API.\",\n            value=[],\n            options=_urls,\n            real_time_refresh=True,\n            required=True,\n        ),\n        StrInput(\n            name=\"project_id\",\n            display_name=\"watsonx Project ID\",\n            required=True,\n            info=\"The project ID or deployment space ID that is associated with the foundation model.\",\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"Watsonx API Key\",\n            info=\"The API Key to use for the model.\",\n            required=True,\n        ),\n        DropdownInput(\n            name=\"model_name\",\n            display_name=\"Model Name\",\n            options=[],\n            value=None,\n            real_time_refresh=True,\n            required=True,\n            refresh_button=True,\n        ),\n        IntInput(\n            name=\"max_tokens\",\n            display_name=\"Max Tokens\",\n            advanced=True,\n            info=\"The maximum number of tokens to generate.\",\n            range_spec=RangeSpec(min=1, max=4096),\n            value=1000,\n        ),\n        StrInput(\n            name=\"stop_sequence\",\n            display_name=\"Stop Sequence\",\n            advanced=True,\n            info=\"Sequence where generation should stop.\",\n            field_type=\"str\",\n        ),\n        SliderInput(\n            name=\"temperature\",\n            display_name=\"Temperature\",\n            info=\"Controls randomness, higher values increase diversity.\",\n            value=0.1,\n            range_spec=RangeSpec(min=0, max=2, step=0.01),\n            advanced=True,\n        ),\n        SliderInput(\n            name=\"top_p\",\n            display_name=\"Top P\",\n            info=\"The cumulative probability cutoff for token selection. \"\n            \"Lower values mean sampling from a smaller, more top-weighted nucleus.\",\n            value=0.9,\n            range_spec=RangeSpec(min=0, max=1, step=0.01),\n            advanced=True,\n        ),\n        SliderInput(\n            name=\"frequency_penalty\",\n            display_name=\"Frequency Penalty\",\n            info=\"Penalty for frequency of token usage.\",\n            value=0.5,\n            range_spec=RangeSpec(min=-2.0, max=2.0, step=0.01),\n            advanced=True,\n        ),\n        SliderInput(\n            name=\"presence_penalty\",\n            display_name=\"Presence Penalty\",\n            info=\"Penalty for token presence in prior text.\",\n            value=0.3,\n            range_spec=RangeSpec(min=-2.0, max=2.0, step=0.01),\n            advanced=True,\n        ),\n        IntInput(\n            name=\"seed\",\n            display_name=\"Random Seed\",\n            advanced=True,\n            info=\"The random seed for the model.\",\n            value=8,\n        ),\n        BoolInput(\n            name=\"logprobs\",\n            display_name=\"Log Probabilities\",\n            advanced=True,\n            info=\"Whether to return log probabilities of the output tokens.\",\n            value=True,\n        ),\n        IntInput(\n            name=\"top_logprobs\",\n            display_name=\"Top Log Probabilities\",\n            advanced=True,\n            info=\"Number of most likely tokens to return at each position.\",\n            value=3,\n            range_spec=RangeSpec(min=1, max=20),\n        ),\n        StrInput(\n            name=\"logit_bias\",\n            display_name=\"Logit Bias\",\n            advanced=True,\n            info='JSON string of token IDs to bias or suppress (e.g., {\"1003\": -100, \"1004\": 100}).',\n            field_type=\"str\",\n        ),\n    ]\n\n    @staticmethod\n    def fetch_models(base_url: str) -> list[str]:\n        \"\"\"Fetch available models from the watsonx.ai API.\"\"\"\n        try:\n            endpoint = f\"{base_url}/ml/v1/foundation_model_specs\"\n            params = {\"version\": \"2024-09-16\", \"filters\": \"function_text_chat,!lifecycle_withdrawn\"}\n            response = requests.get(endpoint, params=params, timeout=10)\n            response.raise_for_status()\n            data = response.json()\n            models = [model[\"model_id\"] for model in data.get(\"resources\", [])]\n            return sorted(models)\n        except Exception:  # noqa: BLE001\n            logger.exception(\"Error fetching models. Using default models.\")\n            return WatsonxAIComponent._default_models\n\n    def update_build_config(self, build_config: dotdict, field_value: Any, field_name: str | None = None):\n        \"\"\"Update model options when URL or API key changes.\"\"\"\n        if field_name == \"base_url\" and field_value:\n            try:\n                models = self.fetch_models(base_url=field_value)\n                build_config[\"model_name\"][\"options\"] = models\n                if build_config[\"model_name\"][\"value\"]:\n                    build_config[\"model_name\"][\"value\"] = models[0]\n                info_message = f\"Updated model options: {len(models)} models found in {field_value}\"\n                logger.info(info_message)\n            except Exception:  # noqa: BLE001\n                logger.exception(\"Error updating model options.\")\n        if field_name == \"model_name\" and field_value and field_value in WatsonxAIComponent._urls:\n            build_config[\"model_name\"][\"options\"] = self.fetch_models(base_url=field_value)\n            build_config[\"model_name\"][\"value\"] = \"\"\n        return build_config\n\n    def build_model(self) -> LanguageModel:\n        # Parse logit_bias from JSON string if provided\n        logit_bias = None\n        if hasattr(self, \"logit_bias\") and self.logit_bias:\n            try:\n                logit_bias = json.loads(self.logit_bias)\n            except json.JSONDecodeError:\n                logger.warning(\"Invalid logit_bias JSON format. Using default instead.\")\n                logit_bias = {\"1003\": -100, \"1004\": -100}\n\n        chat_params = {\n            \"max_tokens\": getattr(self, \"max_tokens\", None),\n            \"temperature\": getattr(self, \"temperature\", None),\n            \"top_p\": getattr(self, \"top_p\", None),\n            \"frequency_penalty\": getattr(self, \"frequency_penalty\", None),\n            \"presence_penalty\": getattr(self, \"presence_penalty\", None),\n            \"seed\": getattr(self, \"seed\", None),\n            \"stop\": [self.stop_sequence] if self.stop_sequence else [],\n            \"n\": 1,\n            \"logprobs\": getattr(self, \"logprobs\", True),\n            \"top_logprobs\": getattr(self, \"top_logprobs\", None),\n            \"time_limit\": 600000,\n            \"logit_bias\": logit_bias,\n        }\n\n        # Pass API key as plain string to avoid SecretStr serialization issues\n        # when model is configured with with_config() or used in batch operations\n        api_key_value = self.api_key\n        if isinstance(api_key_value, SecretStr):\n            api_key_value = api_key_value.get_secret_value()\n\n        return ChatWatsonx(\n            apikey=api_key_value,\n            url=self.base_url,\n            project_id=self.project_id,\n            model_id=self.model_name,\n            params=chat_params,\n            streaming=self.stream,\n        )\n"
+              },
+              "frequency_penalty": {
+                "_input_type": "SliderInput",
+                "advanced": true,
+                "display_name": "Frequency Penalty",
+                "dynamic": false,
+                "info": "Penalty for frequency of token usage.",
+                "max_label": "",
+                "max_label_icon": "",
+                "min_label": "",
+                "min_label_icon": "",
+                "name": "frequency_penalty",
+                "override_skip": false,
+                "placeholder": "",
+                "range_spec": {
+                  "max": 2,
+                  "min": -2,
+                  "step": 0.01,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "slider_buttons": false,
+                "slider_buttons_options": [],
+                "slider_input": false,
+                "title_case": false,
+                "tool_mode": false,
+                "track_in_telemetry": false,
+                "type": "slider",
+                "value": 0.5
+              },
+              "input_value": {
+                "_input_type": "MessageInput",
+                "advanced": false,
+                "display_name": "Input",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "input_value",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "is_refresh": false,
+              "logit_bias": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "Logit Bias",
+                "dynamic": false,
+                "info": "JSON string of token IDs to bias or suppress (e.g., {\"1003\": -100, \"1004\": 100}).",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "logit_bias",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "logprobs": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Log Probabilities",
+                "dynamic": false,
+                "info": "Whether to return log probabilities of the output tokens.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "logprobs",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              },
+              "max_tokens": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Max Tokens",
+                "dynamic": false,
+                "info": "The maximum number of tokens to generate.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_tokens",
+                "override_skip": false,
+                "placeholder": "",
+                "range_spec": {
+                  "max": 4096,
+                  "min": 1,
+                  "step": 0.1,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 1000
+              },
+              "model_name": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Model Name",
+                "dynamic": false,
+                "external_options": {},
+                "info": "",
+                "name": "model_name",
+                "options": [
+                  "ibm/granite-3-2-8b-instruct",
+                  "ibm/granite-3-3-8b-instruct",
+                  "ibm/granite-3-8b-instruct",
+                  "ibm/granite-4-h-small",
+                  "ibm/granite-guardian-3-8b",
+                  "meta-llama/llama-3-2-11b-vision-instruct",
+                  "meta-llama/llama-3-2-90b-vision-instruct",
+                  "meta-llama/llama-3-3-70b-instruct",
+                  "meta-llama/llama-3-405b-instruct",
+                  "meta-llama/llama-4-maverick-17b-128e-instruct-fp8",
+                  "meta-llama/llama-guard-3-11b-vision",
+                  "mistral-large-2512",
+                  "mistralai/mistral-medium-2505",
+                  "mistralai/mistral-small-3-1-24b-instruct-2503",
+                  "openai/gpt-oss-120b"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "refresh_button": true,
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "ibm/granite-3-8b-instruct"
+              },
+              "presence_penalty": {
+                "_input_type": "SliderInput",
+                "advanced": true,
+                "display_name": "Presence Penalty",
+                "dynamic": false,
+                "info": "Penalty for token presence in prior text.",
+                "max_label": "",
+                "max_label_icon": "",
+                "min_label": "",
+                "min_label_icon": "",
+                "name": "presence_penalty",
+                "override_skip": false,
+                "placeholder": "",
+                "range_spec": {
+                  "max": 2,
+                  "min": -2,
+                  "step": 0.01,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "slider_buttons": false,
+                "slider_buttons_options": [],
+                "slider_input": false,
+                "title_case": false,
+                "tool_mode": false,
+                "track_in_telemetry": false,
+                "type": "slider",
+                "value": 0.3
+              },
+              "project_id": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "watsonx Project ID",
+                "dynamic": false,
+                "info": "The project ID or deployment space ID that is associated with the foundation model.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "project_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "91146e4b-59e0-4c04-a826-2731457dd287"
+              },
+              "seed": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Random Seed",
+                "dynamic": false,
+                "info": "The random seed for the model.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "seed",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 8
+              },
+              "stop_sequence": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "Stop Sequence",
+                "dynamic": false,
+                "info": "Sequence where generation should stop.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "stop_sequence",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "stream": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Stream",
+                "dynamic": false,
+                "info": "Stream the response from the model. Streaming works only in Chat.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "stream",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": false
+              },
+              "system_message": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "ai_enabled": false,
+                "copy_field": false,
+                "display_name": "System Message",
+                "dynamic": false,
+                "info": "System message to pass to the model.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "system_message",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "temperature": {
+                "_input_type": "SliderInput",
+                "advanced": true,
+                "display_name": "Temperature",
+                "dynamic": false,
+                "info": "Controls randomness, higher values increase diversity.",
+                "max_label": "",
+                "max_label_icon": "",
+                "min_label": "",
+                "min_label_icon": "",
+                "name": "temperature",
+                "override_skip": false,
+                "placeholder": "",
+                "range_spec": {
+                  "max": 2,
+                  "min": 0,
+                  "step": 0.01,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "slider_buttons": false,
+                "slider_buttons_options": [],
+                "slider_input": false,
+                "title_case": false,
+                "tool_mode": false,
+                "track_in_telemetry": false,
+                "type": "slider",
+                "value": 0.1
+              },
+              "top_logprobs": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Top Log Probabilities",
+                "dynamic": false,
+                "info": "Number of most likely tokens to return at each position.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "top_logprobs",
+                "override_skip": false,
+                "placeholder": "",
+                "range_spec": {
+                  "max": 20,
+                  "min": 1,
+                  "step": 0.1,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 3
+              },
+              "top_p": {
+                "_input_type": "SliderInput",
+                "advanced": true,
+                "display_name": "Top P",
+                "dynamic": false,
+                "info": "The cumulative probability cutoff for token selection. Lower values mean sampling from a smaller, more top-weighted nucleus.",
+                "max_label": "",
+                "max_label_icon": "",
+                "min_label": "",
+                "min_label_icon": "",
+                "name": "top_p",
+                "override_skip": false,
+                "placeholder": "",
+                "range_spec": {
+                  "max": 1,
+                  "min": 0,
+                  "step": 0.01,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "slider_buttons": false,
+                "slider_buttons_options": [],
+                "slider_input": false,
+                "title_case": false,
+                "tool_mode": false,
+                "track_in_telemetry": false,
+                "type": "slider",
+                "value": 0.9
+              }
+            },
+            "tool_mode": false
+          },
+          "selected_output": "model_output",
+          "showNode": true,
+          "type": "IBMwatsonxModel"
+        },
+        "dragging": false,
+        "id": "IBMwatsonxModel-jsSU4",
+        "measured": {
+          "height": 629,
+          "width": 320
+        },
+        "position": {
+          "x": -236.85785637447282,
+          "y": 76.72327365441043
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "ChatOutput-UICsD",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Display a chat message in the Playground.",
+            "display_name": "Chat Output",
+            "documentation": "https://docs.langflow.org/chat-input-and-output",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "should_store_message",
+              "sender",
+              "sender_name",
+              "session_id",
+              "context_id",
+              "data_template",
+              "clean_data"
+            ],
+            "frozen": false,
+            "icon": "MessagesSquare",
+            "legacy": false,
+            "metadata": {
+              "code_hash": "8c87e536cca4",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "orjson",
+                    "version": "3.10.15"
+                  },
+                  {
+                    "name": "fastapi",
+                    "version": "1.4.1"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": "0.2.1"
+                  }
+                ],
+                "total_dependencies": 3
+              },
+              "module": "lfx.components.input_output.chat_output.ChatOutput"
+            },
+            "minimized": true,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output Message",
+                "group_outputs": false,
+                "method": "message_response",
+                "name": "message",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "clean_data": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Basic Clean Data",
+                "dynamic": false,
+                "info": "Whether to clean data before converting to string.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "clean_data",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from collections.abc import Generator\nfrom typing import Any\n\nimport orjson\nfrom fastapi.encoders import jsonable_encoder\n\nfrom lfx.base.io.chat import ChatComponent\nfrom lfx.helpers.data import safe_convert\nfrom lfx.inputs.inputs import BoolInput, DropdownInput, HandleInput, MessageTextInput\nfrom lfx.schema.data import Data\nfrom lfx.schema.dataframe import DataFrame\nfrom lfx.schema.message import Message\nfrom lfx.schema.properties import Source\nfrom lfx.template.field.base import Output\nfrom lfx.utils.constants import (\n    MESSAGE_SENDER_AI,\n    MESSAGE_SENDER_NAME_AI,\n    MESSAGE_SENDER_USER,\n)\n\n\nclass ChatOutput(ChatComponent):\n    display_name = \"Chat Output\"\n    description = \"Display a chat message in the Playground.\"\n    documentation: str = \"https://docs.langflow.org/chat-input-and-output\"\n    icon = \"MessagesSquare\"\n    name = \"ChatOutput\"\n    minimized = True\n\n    inputs = [\n        HandleInput(\n            name=\"input_value\",\n            display_name=\"Inputs\",\n            info=\"Message to be passed as output.\",\n            input_types=[\"Data\", \"DataFrame\", \"Message\"],\n            required=True,\n        ),\n        BoolInput(\n            name=\"should_store_message\",\n            display_name=\"Store Messages\",\n            info=\"Store the message in the history.\",\n            value=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"sender\",\n            display_name=\"Sender Type\",\n            options=[MESSAGE_SENDER_AI, MESSAGE_SENDER_USER],\n            value=MESSAGE_SENDER_AI,\n            advanced=True,\n            info=\"Type of sender.\",\n        ),\n        MessageTextInput(\n            name=\"sender_name\",\n            display_name=\"Sender Name\",\n            info=\"Name of the sender.\",\n            value=MESSAGE_SENDER_NAME_AI,\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"session_id\",\n            display_name=\"Session ID\",\n            info=\"The session ID of the chat. If empty, the current session ID parameter will be used.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"context_id\",\n            display_name=\"Context ID\",\n            info=\"The context ID of the chat. Adds an extra layer to the local memory.\",\n            value=\"\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"data_template\",\n            display_name=\"Data Template\",\n            value=\"{text}\",\n            advanced=True,\n            info=\"Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.\",\n        ),\n        BoolInput(\n            name=\"clean_data\",\n            display_name=\"Basic Clean Data\",\n            value=True,\n            advanced=True,\n            info=\"Whether to clean data before converting to string.\",\n        ),\n    ]\n    outputs = [\n        Output(\n            display_name=\"Output Message\",\n            name=\"message\",\n            method=\"message_response\",\n        ),\n    ]\n\n    def _build_source(self, id_: str | None, display_name: str | None, source: str | None) -> Source:\n        source_dict = {}\n        if id_:\n            source_dict[\"id\"] = id_\n        if display_name:\n            source_dict[\"display_name\"] = display_name\n        if source:\n            # Handle case where source is a ChatOpenAI object\n            if hasattr(source, \"model_name\"):\n                source_dict[\"source\"] = source.model_name\n            elif hasattr(source, \"model\"):\n                source_dict[\"source\"] = str(source.model)\n            else:\n                source_dict[\"source\"] = str(source)\n        return Source(**source_dict)\n\n    async def message_response(self) -> Message:\n        # First convert the input to string if needed\n        text = self.convert_to_string()\n\n        # Get source properties\n        source, _, display_name, source_id = self.get_properties_from_source_component()\n\n        # Create or use existing Message object\n        if isinstance(self.input_value, Message) and not self.is_connected_to_chat_input():\n            message = self.input_value\n            # Update message properties\n            message.text = text\n            # Preserve existing session_id from the incoming message if it exists\n            existing_session_id = message.session_id\n        else:\n            message = Message(text=text)\n            existing_session_id = None\n\n        # Set message properties\n        message.sender = self.sender\n        message.sender_name = self.sender_name\n        # Preserve session_id from incoming message, or use component/graph session_id\n        message.session_id = (\n            self.session_id or existing_session_id or (self.graph.session_id if hasattr(self, \"graph\") else None) or \"\"\n        )\n        message.context_id = self.context_id\n        message.flow_id = self.graph.flow_id if hasattr(self, \"graph\") else None\n        message.properties.source = self._build_source(source_id, display_name, source)\n\n        # Store message if needed\n        if message.session_id and self.should_store_message:\n            stored_message = await self.send_message(message)\n            self.message.value = stored_message\n            message = stored_message\n\n        self.status = message\n        return message\n\n    def _serialize_data(self, data: Data) -> str:\n        \"\"\"Serialize Data object to JSON string.\"\"\"\n        # Convert data.data to JSON-serializable format\n        serializable_data = jsonable_encoder(data.data)\n        # Serialize with orjson, enabling pretty printing with indentation\n        json_bytes = orjson.dumps(serializable_data, option=orjson.OPT_INDENT_2)\n        # Convert bytes to string and wrap in Markdown code blocks\n        return \"```json\\n\" + json_bytes.decode(\"utf-8\") + \"\\n```\"\n\n    def _validate_input(self) -> None:\n        \"\"\"Validate the input data and raise ValueError if invalid.\"\"\"\n        if self.input_value is None:\n            msg = \"Input data cannot be None\"\n            raise ValueError(msg)\n        if isinstance(self.input_value, list) and not all(\n            isinstance(item, Message | Data | DataFrame | str) for item in self.input_value\n        ):\n            invalid_types = [\n                type(item).__name__\n                for item in self.input_value\n                if not isinstance(item, Message | Data | DataFrame | str)\n            ]\n            msg = f\"Expected Data or DataFrame or Message or str, got {invalid_types}\"\n            raise TypeError(msg)\n        if not isinstance(\n            self.input_value,\n            Message | Data | DataFrame | str | list | Generator | type(None),\n        ):\n            type_name = type(self.input_value).__name__\n            msg = f\"Expected Data or DataFrame or Message or str, Generator or None, got {type_name}\"\n            raise TypeError(msg)\n\n    def convert_to_string(self) -> str | Generator[Any, None, None]:\n        \"\"\"Convert input data to string with proper error handling.\"\"\"\n        self._validate_input()\n        if isinstance(self.input_value, list):\n            clean_data: bool = getattr(self, \"clean_data\", False)\n            return \"\\n\".join([safe_convert(item, clean_data=clean_data) for item in self.input_value])\n        if isinstance(self.input_value, Generator):\n            return self.input_value\n        return safe_convert(self.input_value)\n"
+              },
+              "context_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Context ID",
+                "dynamic": false,
+                "info": "The context ID of the chat. Adds an extra layer to the local memory.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "context_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "data_template": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Data Template",
+                "dynamic": false,
+                "info": "Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "data_template",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "{text}"
+              },
+              "input_value": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Inputs",
+                "dynamic": false,
+                "info": "Message to be passed as output.",
+                "input_types": [
+                  "Data",
+                  "DataFrame",
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "input_value",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "other",
+                "value": ""
+              },
+              "sender": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Sender Type",
+                "dynamic": false,
+                "external_options": {},
+                "info": "Type of sender.",
+                "name": "sender",
+                "options": [
+                  "Machine",
+                  "User"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "Machine"
+              },
+              "sender_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Sender Name",
+                "dynamic": false,
+                "info": "Name of the sender.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "sender_name",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "AI"
+              },
+              "session_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Session ID",
+                "dynamic": false,
+                "info": "The session ID of the chat. If empty, the current session ID parameter will be used.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "session_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "should_store_message": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Store Messages",
+                "dynamic": false,
+                "info": "Store the message in the history.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "should_store_message",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": false,
+          "type": "ChatOutput"
+        },
+        "dragging": false,
+        "id": "ChatOutput-UICsD",
+        "measured": {
+          "height": 48,
+          "width": 192
+        },
+        "position": {
+          "x": 1459.7664307720522,
+          "y": 513.9308860833487
+        },
+        "selected": false,
+        "type": "genericNode"
+      }
+    ],
+    "viewport": {
+      "x": 405.5427549725434,
+      "y": 228.2715031006927,
+      "zoom": 0.7022250657678322
+    }
+  },
+  "description": "Retrieves relevant information from knowledge base",
+  "endpoint_name": null,
+  "id": "dfa14435-45a7-4eee-b04d-a0f991b4663c",
+  "is_component": false,
+  "last_tested_version": "1.7.2",
+  "name": "RAGEstimationAgent",
+  "tags": []
+}
