@@ -79,9 +79,8 @@ This starts both:
 
 Open http://localhost:3000 in your browser.
 
-**Default Login Credentials:**
-- Username: `ibmdevday2026`
-- Password: `##4456##Dft$ttCdF`
+**Login Credentials:**
+Set via environment variables `DEMO_USER` and `DEMO_PASSWORD` (see `.env.example`).
 
 > ⚠️ **Important:** After login, configure your WatsonX API key in the Settings panel (⚙️ icon) to enable AI features.
 

@@ -20,8 +20,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 // WatsonX Configuration
-// Project ID is not sensitive - it's just an identifier
-const WATSONX_PROJECT_ID = process.env.WATSONX_PROJECT_ID || '91146e4b-59e0-4c04-a826-2731457dd287';
+const WATSONX_PROJECT_ID = process.env.WATSONX_PROJECT_ID;
 const WATSONX_URL = process.env.WATSONX_URL || 'https://us-south.ml.cloud.ibm.com';
 
 // Get IAM Token
@@ -43,9 +42,9 @@ async function getIAMToken(apiKey) {
   return data.access_token;
 }
 
-// Auth credentials from environment (runtime)
-const DEMO_USER = process.env.DEMO_USER || 'ibmdevday2026';
-const DEMO_PASSWORD = process.env.DEMO_PASSWORD || '##4456##Dft$ttCdF';
+// Auth credentials from environment (runtime) - must be set via environment variables
+const DEMO_USER = process.env.DEMO_USER;
+const DEMO_PASSWORD = process.env.DEMO_PASSWORD;
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {
