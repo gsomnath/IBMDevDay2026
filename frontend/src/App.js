@@ -1,10 +1,8 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import './App.css';
 
-// Constants - credentials loaded from environment variables for security
-const VALID_USER = process.env.REACT_APP_DEMO_USER || 'demo';
-const VALID_PASSWORD = process.env.REACT_APP_DEMO_PASSWORD || 'demo123';
-const MAX_CALLS_PER_DAY = parseInt(process.env.REACT_APP_MAX_CALLS_PER_DAY) || 200;
+// Constants
+const MAX_CALLS_PER_DAY = 200;
 
 // Agent configurations with system prompts
 // Note: Config values are examples - actual values should be set via environment variables in production
@@ -166,14 +164,32 @@ function LoginPage({ onLogin }) {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    if (username === VALID_USER && password === VALID_PASSWORD) {
-      sessionStorage.setItem('isLoggedIn', 'true');
-      onLogin();
-    } else {
-      setError('Invalid credentials');
+    setIsLoading(true);
+    setError('');
+    
+    try {
+      const response = await fetch('/api/auth/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username, password })
+      });
+      
+      const data = await response.json();
+      
+      if (response.ok && data.success) {
+        sessionStorage.setItem('isLoggedIn', 'true');
+        onLogin();
+      } else {
+        setError(data.message || 'Invalid credentials');
+      }
+    } catch (err) {
+      setError('Login failed. Please try again.');
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -193,6 +209,7 @@ function LoginPage({ onLogin }) {
               onChange={(e) => setUsername(e.target.value)}
               placeholder="Enter username"
               required
+              disabled={isLoading}
             />
           </div>
           <div className="form-group">
@@ -203,10 +220,13 @@ function LoginPage({ onLogin }) {
               onChange={(e) => setPassword(e.target.value)}
               placeholder="Enter password"
               required
+              disabled={isLoading}
             />
           </div>
           {error && <div className="error-message">{error}</div>}
-          <button type="submit" className="login-btn">Login</button>
+          <button type="submit" className="login-btn" disabled={isLoading}>
+            {isLoading ? 'Logging in...' : 'Login'}
+          </button>
         </form>
       </div>
     </div>

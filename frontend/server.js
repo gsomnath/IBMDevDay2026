@@ -42,9 +42,24 @@ async function getIAMToken(apiKey) {
   return data.access_token;
 }
 
+// Auth credentials from environment (runtime)
+const DEMO_USER = process.env.DEMO_USER || 'ibmdevday2026';
+const DEMO_PASSWORD = process.env.DEMO_PASSWORD || '##4456##Dft$ttCdF';
+
 // Health check endpoint
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
+});
+
+// Auth validation endpoint
+app.post('/api/auth/login', (req, res) => {
+  const { username, password } = req.body;
+  
+  if (username === DEMO_USER && password === DEMO_PASSWORD) {
+    res.json({ success: true, message: 'Login successful' });
+  } else {
+    res.status(401).json({ success: false, message: 'Invalid credentials' });
+  }
 });
 
 // WatsonX Chat endpoint
