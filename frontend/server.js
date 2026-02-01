@@ -19,8 +19,9 @@ if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, 'build')));
 }
 
-// WatsonX Configuration - use environment variables, no defaults for sensitive data
-const WATSONX_PROJECT_ID = process.env.WATSONX_PROJECT_ID || '';
+// WatsonX Configuration
+// Project ID is not sensitive - it's just an identifier
+const WATSONX_PROJECT_ID = process.env.WATSONX_PROJECT_ID || '91146e4b-59e0-4c04-a826-2731457dd287';
 const WATSONX_URL = process.env.WATSONX_URL || 'https://us-south.ml.cloud.ibm.com';
 
 // Get IAM Token

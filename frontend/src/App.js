@@ -605,7 +605,7 @@ function Dashboard({ onLogout }) {
       <header className="dashboard-header">
         <h1>🤖 IBMDevDay2026 Demo</h1>
         <div className="header-actions">
-          <span className="user-info">👤 {VALID_USER}</span>
+          <span className="user-info">👤 Demo User</span>
           <button className="logout-btn" onClick={onLogout}>Logout</button>
         </div>
       </header>
